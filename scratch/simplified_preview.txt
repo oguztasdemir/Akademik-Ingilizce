@@ -1,0 +1,269 @@
+passage                   | Original: paragraf, metin, geçit                             | Simplified: paragraf, metin
+world                     | Original: dünya, alem, yeryüzü                               | Simplified: dünya, alem
+earth                     | Original: dünya, toprak, yeryüzü                             | Simplified: dünya, toprak
+develop                   | Original: geliştirmek, gelişmek, ortaya çıkarmak             | Simplified: geliştirmek, gelişmek
+use                       | Original: kullanmak, yararlanmak, tüketmek                   | Simplified: kullanmak, yararlanmak
+change                    | Original: değiştirmek, değişmek, takas etmek                 | Simplified: değiştirmek, değişmek
+read                      | Original: okumak, oku, anlaşılmak                            | Simplified: okumak, anlaşılmak
+cause                     | Original: neden olmak, sebep olmak, yol açmak                | Simplified: neden olmak, sebep olmak
+while                     | Original: iken, o sırada, -e rağmen, sırasında               | Simplified: iken, o sırada
+make                      | Original: yapmak, etmek, oluşturmak                          | Simplified: yapmak, etmek
+way                       | Original: yol, yöntem, tarz                                  | Simplified: yol, yöntem
+form                      | Original: biçimlendirmek, oluşturmak, biçim                  | Simplified: biçimlendirmek, oluşturmak
+become                    | Original: olmak, hale gelmek, yaraşmak                       | Simplified: olmak, hale gelmek
+number                    | Original: sayı, rakam, numara                                | Simplified: sayı, rakam
+include                   | Original: içermek, katmak, dahil etmek                       | Simplified: içermek, katmak
+live                      | Original: yaşamak, canlı, yaşayan                            | Simplified: yaşamak, canlı
+produce                   | Original: üretmek, neden olmak, yetiştirmek                  | Simplified: üretmek, neden olmak
+provide                   | Original: sağlamak, tedarik etmek, koşul koymak              | Simplified: sağlamak, tedarik etmek
+create                    | Original: oluşturmak, ortaya çıkarmak, yaratmak              | Simplified: oluşturmak, ortaya çıkarmak
+increase                  | Original: artmak, arttırmak, yükselmek                       | Simplified: artmak, arttırmak
+mean                      | Original: anlamına gelmek, ortalama, anlam                   | Simplified: anlamına gelmek, ortalama
+reduce                    | Original: azaltmak, düşürmek, indirgemek                     | Simplified: azaltmak, düşürmek
+follow                    | Original: takip etmek, izlemek, uymak                        | Simplified: takip etmek, izlemek
+battery                   | Original: pil, batarya, akü                                  | Simplified: pil, batarya
+design                    | Original: tasarlamak, planlamak, çizim                       | Simplified: tasarlamak, planlamak
+condition                 | Original: koşul, durum, şart                                 | Simplified: koşul, durum
+intelligence              | Original: zeka, akıl, istihbarat                             | Simplified: zeka, akıl
+order                     | Original: sıra, düzen, emir, sipariş                         | Simplified: sıra, düzen
+crop                      | Original: mahsul, ürün, ekin                                 | Simplified: mahsul, ürün
+development               | Original: gelişme, gelişim, kalkınma                         | Simplified: gelişme, gelişim
+country                   | Original: ülke, memleket, vatan                              | Simplified: ülke, memleket
+exist                     | Original: var olmak, bulunmak, hayatta kalmak                | Simplified: var olmak, bulunmak
+impact                    | Original: etki, tesir, darbe                                 | Simplified: etki, tesir
+improve                   | Original: geliştirmek, iyileştirmek, ilerlemek               | Simplified: geliştirmek, iyileştirmek
+measure                   | Original: ölçmek, önlem, ölçü                                | Simplified: ölçmek, önlem
+focus                     | Original: odaklanmak, odak, merkez                           | Simplified: odaklanmak, odak
+building                  | Original: bina, yapı, inşaat                                 | Simplified: bina, yapı
+seed                      | Original: tohum, çekirdek, aşılamak                          | Simplified: tohum, çekirdek
+though                    | Original: rağmen, -e rağmen, yine de                         | Simplified: rağmen, -e rağmen
+base                      | Original: temel, üs, dayandırmak                             | Simplified: temel, üs
+have                      | Original: sahip olmak, elde etmek, yapmak                    | Simplified: sahip olmak, elde etmek
+call                      | Original: çağırmak, adlandırmak, aramak                      | Simplified: çağırmak, adlandırmak
+individual                | Original: birey, fert, şahıs                                 | Simplified: birey, fert
+must                      | Original: -malı, -meli, zorunluluk                           | Simplified: -malı, -meli
+suggest                   | Original: önermek, belirtmek, çağrıştırmak                   | Simplified: önermek, belirtmek
+lead                      | Original: yol açmak, öncülük etmek, kurşun                   | Simplified: yol açmak, öncülük etmek
+therefore                 | Original: bu yüzden, bundan dolayı, bu nedenle               | Simplified: bu yüzden, bundan dolayı
+advance                   | Original: ilerleme, gelişme, avans                           | Simplified: ilerleme, gelişme
+instrument                | Original: alet, araç, cihaz, enstrüman                       | Simplified: alet, araç
+require                   | Original: gerektirmek, ihtiyaç duymak, talep etmek           | Simplified: gerektirmek, ihtiyaç duymak
+wave                      | Original: dalga, dalgalamak, el sallamak                     | Simplified: dalga, dalgalamak
+major                     | Original: büyük, önemli, ana                                 | Simplified: büyük, önemli
+occur                     | Original: meydana gelmek, olmak, akla gelmek                 | Simplified: meydana gelmek, olmak
+shift                     | Original: değiştirmek, vardiya, kaydırmak                    | Simplified: değiştirmek, vardiya
+characteristic            | Original: özellik, karakteristik, nitelik                    | Simplified: özellik, karakteristik
+home                      | Original: ev, yuva, vatan                                    | Simplified: ev, yuva
+matter                    | Original: madde, konu, önem taşımak                          | Simplified: madde, konu
+property                  | Original: özellik, nitelik, mülk                             | Simplified: özellik, nitelik
+unless                    | Original: -medikçe, -madıkça, aksi takdirde                  | Simplified: -medikçe, -madıkça
+vary                      | Original: çeşitlilik göstermek, değişmek, farklı olmak       | Simplified: çeşitlilik göstermek, değişmek
+application               | Original: uygulama, başvuru, müracaat                        | Simplified: uygulama, başvuru
+depend                    | Original: bağlı olmak, güvenmek, tabi olmak                  | Simplified: bağlı olmak, güvenmek
+offer                     | Original: sunmak, teklif etmek, öneri                        | Simplified: sunmak, teklif etmek
+remain                    | Original: kalmak, sürdürmek, arta kalmak                     | Simplified: kalmak, sürdürmek
+reveal                    | Original: ortaya çıkarmak, ifşa etmek, göstermek             | Simplified: ortaya çıkarmak, ifşa etmek
+as well as                | Original: yanı sıra, hem de, birlikte                        | Simplified: yanı sıra, hem de
+clear                     | Original: açık, net, temizlemek                              | Simplified: açık, net
+discover                  | Original: keşfetmek, bulmak, ortaya çıkarmak                 | Simplified: keşfetmek, bulmak
+identify                  | Original: tanımlamak, belirlemek, teşhis etmek               | Simplified: tanımlamak, belirlemek
+map                       | Original: harita, plan, haritasını çıkarmak                  | Simplified: harita, plan
+warm                      | Original: ılık, ısıtmak, ısınmak                             | Simplified: ılık, ısıtmak
+degree                    | Original: derece, rütbe, aşama                               | Simplified: derece, rütbe
+grow                      | Original: büyümek, yetişmek, gelişmek                        | Simplified: büyümek, yetişmek
+interest                  | Original: ilgi, alaka, çıkar, faiz                           | Simplified: ilgi, alaka
+support                   | Original: desteklemek, katlanmak, geçindirmek                | Simplified: desteklemek, katlanmak
+trait                     | Original: özellik, nitelik, kişisel özellik                  | Simplified: özellik, nitelik
+current                   | Original: akım, akıntı, güncel                               | Simplified: akım, akıntı
+define                    | Original: tanımlamak, belirlemek, açıklamak                  | Simplified: tanımlamak, belirlemek
+event                     | Original: olay, hadise, gelişme                              | Simplified: olay, hadise
+expand                    | Original: genişlemek, yayılmak, büyümek                      | Simplified: genişlemek, yayılmak
+expose                    | Original: maruz bırakmak, açığa çıkarmak, ifşa etmek         | Simplified: maruz bırakmak, açığa çıkarmak
+freeze                    | Original: donmak, dondurmak, durdurmak                       | Simplified: donmak, dondurmak
+instance                  | Original: örnek, durum, misal                                | Simplified: örnek, durum
+mass                      | Original: kütle, yığın, küme                                 | Simplified: kütle, yığın
+reflect                   | Original: yansıtmak, düşünmek, belirtmek                     | Simplified: yansıtmak, düşünmek
+vast                      | Original: geniş, muazzam, çok büyük                          | Simplified: geniş, muazzam
+extensive                 | Original: geniş, kapsamlı, yaygın                            | Simplified: geniş, kapsamlı
+learn                     | Original: öğrenmek, bellemek, haber almak                    | Simplified: öğrenmek, bellemek
+main                      | Original: ana, temel, başlıca                                | Simplified: ana, temel
+mainly                    | Original: esas olarak, çoğunlukla, daha çok                  | Simplified: esas olarak, çoğunlukla
+report                    | Original: rapor, bildirmek, rapor etmek                      | Simplified: rapor, bildirmek
+run                       | Original: çalıştırmak, işletmek, yönetmek, koşmak            | Simplified: çalıştırmak, işletmek
+attitude                  | Original: tutum, davranış, tavır                             | Simplified: tutum, davranış
+consist                   | Original: oluşmak, meydana gelmek, ibaret olmak              | Simplified: oluşmak, meydana gelmek
+contribution              | Original: katkı, bağış, yardım                               | Simplified: katkı, bağış
+direction                 | Original: yön, doğrultu, talimat                             | Simplified: yön, doğrultu
+prevent                   | Original: önlemek, engel olmak, korumak                      | Simplified: önlemek, engel olmak
+promote                   | Original: teşvik etmek, tanıtımını yapmak, desteklemek       | Simplified: teşvik etmek, tanıtımını yapmak
+retain                    | Original: muhafaza etmek, tutmak, sürdürmek                  | Simplified: muhafaza etmek, tutmak
+set                       | Original: ayarlamak, kurmak, küme                            | Simplified: ayarlamak, kurmak
+unite                     | Original: birleşmek, birleştirmek, bağlamak                  | Simplified: birleşmek, birleştirmek
+apply                     | Original: başvurmak, uygulamak, yürürlüğe koymak             | Simplified: başvurmak, uygulamak
+attribute                 | Original: atfetmek, bağlamak, özellik                        | Simplified: atfetmek, bağlamak
+debate                    | Original: tartışma, müzakere, çekişme                        | Simplified: tartışma, müzakere
+establish                 | Original: kurmak, belirlemek, kanıtlamak                     | Simplified: kurmak, belirlemek
+subject                   | Original: konu, tabi tutmak, denek, ders                     | Simplified: konu, tabi tutmak
+transport                 | Original: taşımak, transfer etmek, ulaşım                    | Simplified: taşımak, transfer etmek
+alter                     | Original: değiştirmek, başkalaşmak, uyarlamak                | Simplified: değiştirmek, başkalaşmak
+attach                    | Original: eklemek, bağlamak, iliştirmek                      | Simplified: eklemek, bağlamak
+conduct                   | Original: yürütmek, yönetmek, iletmek                        | Simplified: yürütmek, yönetmek
+contribute                | Original: katkıda bulunmak, bağış yapmak, yazı yazmak        | Simplified: katkıda bulunmak, bağış yapmak
+deposit                   | Original: tortu, çökelti, yatak, birikinti                   | Simplified: tortu, çökelti
+ensure                    | Original: garantiye almak, sağlamak, emin olmak              | Simplified: garantiye almak, sağlamak
+infer                     | Original: çıkarım yapmak, anlam çıkarmak, ulaşmak            | Simplified: çıkarım yapmak, anlam çıkarmak
+operate                   | Original: çalıştırmak, işletmek, ameliyat etmek              | Simplified: çalıştırmak, işletmek
+originally                | Original: başlangıçta, aslen, ilk olarak                     | Simplified: başlangıçta, aslen
+resistance                | Original: direnç, karşı koyma, rezistans                     | Simplified: direnç, karşı koyma
+scatter                   | Original: dağıtmak, saçılmak, saçmak                         | Simplified: dağıtmak, saçılmak
+stage                     | Original: aşama, evre, sahne                                 | Simplified: aşama, evre
+yield                     | Original: ürün vermek, sağlamak, verim, ürün                 | Simplified: ürün vermek, sağlamak
+adopt                     | Original: benimsemek, kabul etmek, uygulamak                 | Simplified: benimsemek, kabul etmek
+conflict                  | Original: çelişmek, çatışmak, savaş                          | Simplified: çelişmek, çatışmak
+course                    | Original: rota, akış, gidişat                                | Simplified: rota, akış
+cover                     | Original: kapsamak, kaplamak, örtmek                         | Simplified: kapsamak, kaplamak
+decline                   | Original: azalmak, gerilemek, reddetmek                      | Simplified: azalmak, gerilemek
+extract                   | Original: çıkarmak, özünü çıkarmak, alıntı yapmak            | Simplified: çıkarmak, özünü çıkarmak
+failure                   | Original: başarısızlık, yetersizlik, arıza                   | Simplified: başarısızlık, yetersizlik
+massive                   | Original: muazzam, kitlesel, büyük                           | Simplified: muazzam, kitlesel
+observation               | Original: gözlem, inceleme, rasat                            | Simplified: gözlem, inceleme
+primary                   | Original: birincil, temel, başlıca                           | Simplified: birincil, temel
+treat                     | Original: tedavi etmek, işlemek, davranmak                   | Simplified: tedavi etmek, işlemek
+achieve                   | Original: başarmak, elde etmek, kazanmak                     | Simplified: başarmak, elde etmek
+combine                   | Original: birleştirmek, birleşmek, kombine etmek             | Simplified: birleştirmek, birleşmek
+communicate               | Original: iletişim kurmak, iletmek, haberleşmek              | Simplified: iletişim kurmak, iletmek
+consequence               | Original: sonuç, netice, önem                                | Simplified: sonuç, netice
+eliminate                 | Original: yok etmek, ortadan kaldırmak, elemek               | Simplified: yok etmek, ortadan kaldırmak
+enormous                  | Original: muazzam, çok büyük, kocaman                        | Simplified: muazzam, çok büyük
+evaluate                  | Original: değerlendirmek, ölçmek, paha biçmek                | Simplified: değerlendirmek, ölçmek
+incorporate               | Original: dahil etmek, birleştirmek, bünyesine katmak        | Simplified: dahil etmek, birleştirmek
+introduction              | Original: giriş, tanıtım, sunuş                              | Simplified: giriş, tanıtım
+maintain                  | Original: sürdürmek, bakım yapmak, savunmak                  | Simplified: sürdürmek, bakım yapmak
+rapid                     | Original: hızlı, ani, çabuk                                  | Simplified: hızlı, ani
+raw                       | Original: ham, işlenmemiş, çiğ                               | Simplified: ham, işlenmemiş
+rotation                  | Original: dönme, tur, rotasyon                               | Simplified: dönme, tur
+show                      | Original: göstermek, sergilemek, kanıtlamak                  | Simplified: göstermek, sergilemek
+sustain                   | Original: sürdürmek, devam ettirmek, desteklemek             | Simplified: sürdürmek, devam ettirmek
+achievement               | Original: başarı, elde etme, kazanım                         | Simplified: başarı, elde etme
+arise                     | Original: ortaya çıkmak, kaynaklanmak, başkaldırmak          | Simplified: ortaya çıkmak, kaynaklanmak
+brief                     | Original: kısa, özet, özetlemek                              | Simplified: kısa, özet
+capture                   | Original: yakalamak, ele geçirmek, zapt etmek                | Simplified: yakalamak, ele geçirmek
+cease                     | Original: sona ermek, durdurmak, kesilmek                    | Simplified: sona ermek, durdurmak
+confirm                   | Original: onaylamak, doğrulamak, pekiştirmek                 | Simplified: onaylamak, doğrulamak
+enhance                   | Original: geliştirmek, arttırmak, yükseltmek                 | Simplified: geliştirmek, arttırmak
+estimate                  | Original: tahmin etmek, değer biçmek, hesaplamak             | Simplified: tahmin etmek, değer biçmek
+fatigue                   | Original: yorgunluk, metal yorgunluğu, tükenmişlik           | Simplified: yorgunluk, metal yorgunluğu
+immune                    | Original: bağışık, muaf, korunmuş                            | Simplified: bağışık, muaf
+indicate                  | Original: göstermek, belirtmek, işaret etmek                 | Simplified: göstermek, belirtmek
+intake                    | Original: alım, tüketim, giriş                               | Simplified: alım, tüketim
+novel                     | Original: yeni, özgün, sıra dışı, roman                      | Simplified: yeni, özgün
+obtain                    | Original: elde etmek, edinmek, sağlamak                      | Simplified: elde etmek, edinmek
+regard                    | Original: ilişkin olmak, saygı duymak, hasip olmak           | Simplified: ilişkin olmak, saygı duymak
+relative                  | Original: göreceli, göreli, oransal, akraba                  | Simplified: göreceli, göreli
+relieve                   | Original: rahatlatmak, hafifletmek, ziyadesiyle azaltmak     | Simplified: rahatlatmak, hafifletmek
+track                     | Original: izini sürmek, takip etmek, izlemek                 | Simplified: izini sürmek, takip etmek
+trial                     | Original: deneme, test, duruşma                              | Simplified: deneme, test
+circulate                 | Original: dolaşmak, devretmek, yayılmak                      | Simplified: dolaşmak, devretmek
+conclude                  | Original: sonuçlandırmak, sonuca varmak, bitirmek            | Simplified: sonuçlandırmak, sonuca varmak
+defend                    | Original: savunmak, korumak, müdafaa etmek                   | Simplified: savunmak, korumak
+delay                     | Original: gecikmek, gecikme, erteleme                        | Simplified: gecikmek, gecikme
+display                   | Original: görüntülemek, sergilemek, göstermek                | Simplified: görüntülemek, sergilemek
+distribute                | Original: dağıtmak, yaymak, sınıflandırmak                   | Simplified: dağıtmak, yaymak
+endure                    | Original: katlanmak, dayanmak, sürdürmek                     | Simplified: katlanmak, dayanmak
+execute                   | Original: yürütmek, uygulamak, idam etmek                    | Simplified: yürütmek, uygulamak
+hence                     | Original: bu nedenle, bundan dolayı, böylece                 | Simplified: bu nedenle, bundan dolayı
+hinder                    | Original: engellemek, aksatmak, mani olmak                   | Simplified: engellemek, aksatmak
+immense                   | Original: muazzam, çok büyük, engin                          | Simplified: muazzam, çok büyük
+induce                    | Original: uyarmak, indüklemek, neden olmak                   | Simplified: uyarmak, indüklemek
+inferior                  | Original: daha aşağı, alt, düşük seviyede                    | Simplified: daha aşağı, alt
+insight                   | Original: kavrayış, anlayış, içgörü                          | Simplified: kavrayış, anlayış
+interior                  | Original: iç, iç taraf, iç mekan                             | Simplified: iç, iç taraf
+intrigue                  | Original: merak uyandırmak, ilgisini çekmek, entrika         | Simplified: merak uyandırmak, ilgisini çekmek
+medium                    | Original: ortam, araç, orta                                  | Simplified: ortam, araç
+monitor                   | Original: izlemek, gözlemlemek, ekran                        | Simplified: izlemek, gözlemlemek
+reverse                   | Original: tersine çevirmek, ters, tersi                      | Simplified: tersine çevirmek, ters
+substantial               | Original: önemli, kayda değer, büyük                         | Simplified: önemli, kayda değer
+transportation            | Original: taşıma, transportasyon, ulaşım                     | Simplified: taşıma, transportasyon
+vessel                    | Original: damar, kap, gemi                                   | Simplified: damar, kap
+wear                      | Original: aşınmak, yıpranmak, giymek                         | Simplified: aşınmak, yıpranmak
+abandon                   | Original: terk etmek, vazgeçmek, bırakmak                    | Simplified: terk etmek, vazgeçmek
+assume                    | Original: varsaymak, üstlenmek, takınmak                     | Simplified: varsaymak, üstlenmek
+breakoff                  | Original: koparmak, ilişkiyi kesmek, kopma                   | Simplified: koparmak, ilişkiyi kesmek
+commit                    | Original: adamak, taahhüt etmek, işlemek                     | Simplified: adamak, taahhüt etmek
+constraint                | Original: kısıtlama, engel, baskı                            | Simplified: kısıtlama, engel
+disperse                  | Original: dağılmak, dağıtmak, yayılmak                       | Simplified: dağılmak, dağıtmak
+enact                     | Original: yasalaştırmak, canlandırmak, oynamak               | Simplified: yasalaştırmak, canlandırmak
+endow                     | Original: bahşetmek, donatmak, bağışlamak                    | Simplified: bahşetmek, donatmak
+engage                    | Original: meşgul olmak, ilgilenmek, angaje etmek             | Simplified: meşgul olmak, ilgilenmek
+exhaustion                | Original: tükenme, bitkinlik, yorgunluk                      | Simplified: tükenme, bitkinlik
+extraction                | Original: özünü çıkarma, çekip çıkarma, ekstraksiyon         | Simplified: özünü çıkarma, çekip çıkarma
+fulfil                    | Original: yerine getirmek, yapmak, tamamlamak                | Simplified: yerine getirmek, yapmak
+grasp                     | Original: kavramak, anlamak, tutmak                          | Simplified: kavramak, anlamak
+imperative                | Original: zorunlu, acil, zorunluluk                          | Simplified: zorunlu, acil
+interference              | Original: müdahale, karışma, girişim                         | Simplified: müdahale, karışma
+investigation             | Original: araştırma, inceleme, soruşturma                    | Simplified: araştırma, inceleme
+minor                     | Original: küçük, önemsiz, ikincil                            | Simplified: küçük, önemsiz
+perform                   | Original: yapmak, gerçekleştirmek, icra etmek                | Simplified: yapmak, gerçekleştirmek
+render                    | Original: hale getirmek, sunmak, oluşturmak                  | Simplified: hale getirmek, sunmak
+restriction               | Original: kısıtlama, sınırlama, engel                        | Simplified: kısıtlama, sınırlama
+severe                    | Original: şiddetli, ciddi, ağır                              | Simplified: şiddetli, ciddi
+shrink                    | Original: küçülmek, büzülmek, çekmek                         | Simplified: küçülmek, büzülmek
+sole                      | Original: tek, yegane, ayak tabanı                           | Simplified: tek, yegane
+solid                     | Original: katı, sert, sağlam                                 | Simplified: katı, sert
+stream                    | Original: akarsu, akış, akıntı                               | Simplified: akarsu, akış
+transmission              | Original: iletim, bulaşma, geçiş                             | Simplified: iletim, bulaşma
+transmit                  | Original: iletmek, geçirmek, yaymak                          | Simplified: iletmek, geçirmek
+undergo                   | Original: geçirmek, maruz kalmak, başından geçmek            | Simplified: geçirmek, maruz kalmak
+utilize                   | Original: kullanmak, faydalanmak, yararlanmak                | Simplified: kullanmak, faydalanmak
+virtually                 | Original: neredeyse, hemen hemen, adeta                      | Simplified: neredeyse, hemen hemen
+aggregate                 | Original: toplam, bir araya getirmek, küme                   | Simplified: toplam, bir araya getirmek
+bulk                      | Original: büyük miktar, yığın, toplu                         | Simplified: büyük miktar, yığın
+conceive                  | Original: düşünmek, tasarlamak, hamile kalmak                | Simplified: düşünmek, tasarlamak
+contract                  | Original: sözleşme, kasılmak, büzülmek                       | Simplified: sözleşme, kasılmak
+depress                   | Original: düşürmek, bastırmak, çökertmek                     | Simplified: düşürmek, bastırmak
+district                  | Original: bölge, alan, ilçe                                  | Simplified: bölge, alan
+estate                    | Original: mülk, arazi, emlak                                 | Simplified: mülk, arazi
+excel                     | Original: üstün olmak, seçkin olmak, parlamak                | Simplified: üstün olmak, seçkin olmak
+exhaust                   | Original: tüketmek, egzoz gazı, yormak                       | Simplified: tüketmek, egzoz gazı
+exploit                   | Original: faydalanmak, kullanmak, sömürgelik                 | Simplified: faydalanmak, kullanmak
+fault                     | Original: fay, hata, arıza                                   | Simplified: fay, hata
+fuse                      | Original: ergitmek, erimek, sigorta                          | Simplified: ergitmek, erimek
+fusion                    | Original: nükleer kaynaşma, füzyon, birleşme                 | Simplified: nükleer kaynaşma, füzyon
+gauge                     | Original: ölçmek, ölçer, gösterge                            | Simplified: ölçmek, ölçer
+genuine                   | Original: gerçek, hakiki, samimi                             | Simplified: gerçek, hakiki
+gradient                  | Original: gradyan, eğim, artış hızı                          | Simplified: gradyan, eğim
+hostile                   | Original: elverişsiz, düşmanca, zorlu                        | Simplified: elverişsiz, düşmanca
+impose                    | Original: yüklemek, dayatmak, uygulamaya koymak              | Simplified: yüklemek, dayatmak
+impregnate                | Original: emdirmek, doyurmak, hamile bırakmak                | Simplified: emdirmek, doyurmak
+inflect                   | Original: bükmek, çekimlemek, saptırmak                      | Simplified: bükmek, çekimlemek
+inlet                     | Original: giriş, körfez, ağız                                | Simplified: giriş, körfez
+insane                    | Original: deli, akıl hastası, çılgın                         | Simplified: deli, akıl hastası
+interlock                 | Original: kenetlenmek, birbirine geçmek, kilitlemek          | Simplified: kenetlenmek, birbirine geçmek
+interpretation            | Original: yorum, yorumlama, değerlendirme                    | Simplified: yorum, yorumlama
+irradiate                 | Original: ışınlamak, radyasyona maruz bırakmak, ışımak       | Simplified: ışınlamak, radyasyona maruz bırakmak
+irritate                  | Original: tahriş etmek, rahatsız etmek, sinirlendirmek       | Simplified: tahriş etmek, rahatsız etmek
+journal                   | Original: akademik dergi, dergi, günlük                      | Simplified: akademik dergi, dergi
+margin                    | Original: kenar, sınır, hata payı, marj                      | Simplified: kenar, sınır
+message                   | Original: mesaj, ileti, haber                                | Simplified: mesaj, ileti
+objective                 | Original: nesnel, tarafsız, amaç                             | Simplified: nesnel, tarafsız
+orient                    | Original: yönlendirmek, hizalamak, uyum sağlamak             | Simplified: yönlendirmek, hizalamak
+portion                   | Original: kısım, bölüm, porsiyon                             | Simplified: kısım, bölüm
+principal                 | Original: temel, başlıca, asıl, müdür                        | Simplified: temel, başlıca
+revise                    | Original: gözden geçirmek, revize etmek, düzeltmek           | Simplified: gözden geçirmek, revize etmek
+tension                   | Original: gerilim, gerginlik, tansiyon                       | Simplified: gerilim, gerginlik
+tolerant                  | Original: dayanıklı, toleranslı, hoşgörülü                   | Simplified: dayanıklı, toleranslı
+transcribe                | Original: kopyalamak, yazıya dökmek, transkribe etmek        | Simplified: kopyalamak, yazıya dökmek
+uniform                   | Original: tekdüze, homojen, aynı                             | Simplified: tekdüze, homojen
+vague                     | Original: belirsiz, muğlak, net olmayan                      | Simplified: belirsiz, muğlak
+warn                      | Original: uyarmak, ikaz etmek, haber vermek                  | Simplified: uyarmak, ikaz etmek
+weather                   | Original: yıpranmak, hava durumuna maruz kalmak, atlatmak    | Simplified: yıpranmak, hava durumuna maruz kalmak
+close                     | Original: kapatmak, yakın, samimi                            | Simplified: kapatmak, yakın
+because of                | Original: -den dolayı, yüzünden, nedeniyle                   | Simplified: -den dolayı, yüzünden
+hold back                 | Original: engellemek, geri çekilmek, tutmak                  | Simplified: engellemek, geri çekilmek
+relieve of                | Original: kurtarmak, rahatlatmak, muaf tutmak                | Simplified: kurtarmak, rahatlatmak
+take                      | Original: almak, kabul etmek, götürmek                       | Simplified: almak, kabul etmek
+give up                   | Original: vazgeçmek, pes etmek, bırakmak                     | Simplified: vazgeçmek, pes etmek
+late                      | Original: geç, sonlarında, gecikmiş                          | Simplified: geç, sonlarında
+owing to                  | Original: -den dolayı, nedeniyle, sayesinde                  | Simplified: -den dolayı, nedeniyle
+regardless of             | Original: -e bakılmaksızın, bakılmaksızın, -e bakmadan       | Simplified: -e bakılmaksızın, bakılmaksızın
+strike against            | Original: karşı çıkmak, vurmak, saldırmak                    | Simplified: karşı çıkmak, vurmak

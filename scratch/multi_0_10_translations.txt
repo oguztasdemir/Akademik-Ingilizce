@@ -1,0 +1,237 @@
+abandon                   | ['terk etmek', 'vazgeçmek'] | freq: 1
+abundant                  | ['bol', 'bereketli'] | freq: 1
+achieve                   | ['başarmak', 'elde etmek'] | freq: 4
+achievement               | ['başarı', 'elde etme'] | freq: 3
+adopt                     | ['benimsemek', 'kabul etmek'] | freq: 5
+advocate                  | ['savunmak', 'desteklemek'] | freq: 1
+aggregate                 | ['toplam', 'bir araya getirmek'] | freq: 0
+along with                | ['ile birlikte', 'yanı sıra'] | freq: 4
+alter                     | ['değiştirmek', 'başkalaşmak'] | freq: 6
+apply                     | ['başvurmak', 'uygulamak'] | freq: 7
+arise                     | ['ortaya çıkmak', 'kaynaklanmak'] | freq: 4
+as long as                | ['-dığı sürece', '-diği takdirde'] | freq: 3
+as to                     | ['-e dair', 'konusunda'] | freq: 6
+assume                    | ['varsaymak', 'üstlenmek'] | freq: 1
+attach                    | ['eklemek', 'bağlamak'] | freq: 9
+attitude                  | ['tutum', 'davranış'] | freq: 8
+attribute                 | ['atfetmek', 'bağlamak'] | freq: 7
+available                 | ['mevcut', 'hazır'] | freq: 9
+breakoff                  | ['koparmak', 'ilişkiyi kesmek'] | freq: 1
+brief                     | ['kısa', 'özet'] | freq: 3
+bulk                      | ['büyük miktar', 'yığın'] | freq: 0
+capable                   | ['yapabilen', 'kabiliyetli'] | freq: 4
+capture                   | ['yakalamak', 'ele geçirmek'] | freq: 3
+cease                     | ['sona ermek', 'durdurmak'] | freq: 3
+change                    | ['değiştirmek', 'değişmek'] | freq: 10
+circulate                 | ['dolaşmak', 'devretmek'] | freq: 2
+combine                   | ['birleştirmek', 'birleşmek'] | freq: 8
+commit                    | ['adamak', 'taahhüt etmek'] | freq: 1
+communicate               | ['iletişim kurmak', 'iletmek'] | freq: 4
+conceive                  | ['düşünmek', 'tasarlamak'] | freq: 0
+conclude                  | ['sonuçlandırmak', 'sonuca varmak'] | freq: 2
+conduct                   | ['yürütmek', 'yönetmek'] | freq: 6
+confirm                   | ['onaylamak', 'doğrulamak'] | freq: 3
+conflict                  | ['çelişmek', 'çatışmak'] | freq: 6
+consequence               | ['sonuç', 'netice'] | freq: 4
+considerable              | ['hatırı sayılır', 'önemli'] | freq: 4
+consist                   | ['oluşmak', 'meydana gelmek'] | freq: 8
+constraint                | ['kısıtlama', 'engel'] | freq: 1
+contract                  | ['sözleşme', 'kasılmak'] | freq: 0
+contribute                | ['katkıda bulunmak', 'bağış yapmak'] | freq: 6
+contribution              | ['katkı', 'bağış'] | freq: 8
+convertible               | ['dönüştürülebilir', 'çevrilebilir'] | freq: 1
+course                    | ['rota', 'akış'] | freq: 5
+cover                     | ['kapsamak', 'kaplamak'] | freq: 5
+criterion                 | ['kriter', 'ölçüt'] | freq: 0
+current                   | ['akım', 'akıntı'] | freq: 10
+debate                    | ['tartışma', 'müzakere'] | freq: 7
+decline                   | ['azalmak', 'gerilemek'] | freq: 5
+defend                    | ['savunmak', 'korumak'] | freq: 2
+define                    | ['tanımlamak', 'belirlemek'] | freq: 10
+delay                     | ['gecikmek', 'gecikme'] | freq: 2
+deposit                   | ['tortu', 'çökelti'] | freq: 6
+depress                   | ['düşürmek', 'bastırmak'] | freq: 0
+direction                 | ['yön', 'doğrultu'] | freq: 8
+disperse                  | ['dağılmak', 'dağıtmak'] | freq: 1
+display                   | ['görüntülemek', 'sergilemek'] | freq: 2
+distant                   | ['uzak', 'mesafeli'] | freq: 6
+distribute                | ['dağıtmak', 'yaymak'] | freq: 3
+district                  | ['bölge', 'alan'] | freq: 0
+eliminate                 | ['yok etmek', 'ortadan kaldırmak'] | freq: 4
+enable                    | ['olanak tanımak', '-ebilmesini sağlamak'] | freq: 4
+enact                     | ['yasalaştırmak', 'canlandırmak'] | freq: 2
+endow                     | ['bahşetmek', 'donatmak'] | freq: 1
+endure                    | ['katlanmak', 'dayanmak'] | freq: 3
+engage                    | ['meşgul olmak', 'ilgilenmek'] | freq: 1
+engage in                 | ['meşgul olmak', '-ile ilgilenmek'] | freq: 1
+enhance                   | ['geliştirmek', 'arttırmak'] | freq: 3
+enormous                  | ['muazzam', 'çok büyük'] | freq: 4
+ensure                    | ['garantiye almak', 'sağlamak'] | freq: 6
+establish                 | ['kurmak', 'belirlemek'] | freq: 7
+estate                    | ['mülk', 'arazi'] | freq: 0
+estimate                  | ['tahmin etmek', 'değer biçmek'] | freq: 2
+evaluate                  | ['değerlendirmek', 'ölçmek'] | freq: 5
+event                     | ['olay', 'gelişme'] | freq: 10
+excel                     | ['üstün olmak', 'seçkin olmak'] | freq: 0
+execute                   | ['yürütmek', 'uygulamak'] | freq: 2
+exhaust                   | ['tüketmek', 'egzoz gazı'] | freq: 0
+exhaustion                | ['tükenme', 'bitkinlik'] | freq: 1
+expand                    | ['genişlemek', 'yayılmak'] | freq: 10
+exploit                   | ['faydalanmak', 'kullanmak'] | freq: 0
+extensive                 | ['geniş', 'kapsamlı'] | freq: 9
+extract                   | ['çıkarmak', 'özünü çıkarmak'] | freq: 4
+extraction                | ['özünü çıkarma', 'çekip çıkarma'] | freq: 1
+failure                   | ['başarısızlık', 'yetersizlik'] | freq: 5
+fatigue                   | ['yorgunluk', 'metal yorgunluğu'] | freq: 3
+fault                     | ['fay', 'hata'] | freq: 0
+fission                   | ['bölünme', 'fisyon'] | freq: 0
+fluctuate                 | ['dalgalanmak', 'iniş çıkış yapmak'] | freq: 0
+focus                     | ['odaklanmak', 'odak'] | freq: 9
+freeze                    | ['donmak', 'dondurmak'] | freq: 10
+fulfil                    | ['yerine getirmek', 'yapmak'] | freq: 1
+fuse                      | ['ergitmek', 'erimek'] | freq: 0
+fusion                    | ['nükleer kaynaşma', 'füzyon'] | freq: 0
+gaseous                   | ['gaz halinde', 'gazlı'] | freq: 1
+gauge                     | ['ölçmek', 'ölçer'] | freq: 0
+genuine                   | ['gerçek', 'hakiki'] | freq: 0
+give up                   | ['vazgeçmek', 'pes etmek'] | freq: 2
+gradient                  | ['gradyan', 'eğim'] | freq: 0
+grasp                     | ['kavramak', 'anlamak'] | freq: 1
+hence                     | ['bu nedenle', 'bundan dolayı'] | freq: 2
+hinder                    | ['engellemek', 'aksatmak'] | freq: 2
+hold back                 | ['engellemek', 'geri çekilmek'] | freq: 1
+hostile                   | ['elverişsiz', 'düşmanca'] | freq: 0
+immense                   | ['muazzam', 'çok büyük'] | freq: 2
+immune                    | ['bağışık', 'muaf'] | freq: 3
+imperative                | ['zorunlu', 'acil'] | freq: 1
+impose                    | ['yüklemek', 'dayatmak'] | freq: 0
+impregnate                | ['emdirmek', 'doyurmak'] | freq: 0
+improve                   | ['geliştirmek', 'iyileştirmek'] | freq: 7
+in case                   | ['durumunda', 'ihitmaline karşı'] | freq: 9
+in contrast               | ['aksine', 'tersine'] | freq: 3
+in relation to            | ['ilişkin olarak', '-ile ilgili olarak'] | freq: 4
+incorporate               | ['dahil etmek', 'birleştirmek'] | freq: 4
+indicate                  | ['göstermek', 'belirtmek'] | freq: 3
+induce                    | ['uyarmak', 'indüklemek'] | freq: 2
+inexorable                | ['amansız', 'durdurulamaz'] | freq: 0
+infer                     | ['çıkarım yapmak', 'anlam çıkarmak'] | freq: 0
+inferior                  | ['daha aşağı', 'alt'] | freq: 2
+inflect                   | ['bükmek', 'çekimlemek'] | freq: 0
+inlet                     | ['giriş', 'körfez'] | freq: 0
+insane                    | ['deli', 'akıl hastası'] | freq: 0
+insight                   | ['kavrayış', 'anlayış'] | freq: 2
+install                   | ['kurmak', 'yerleştirmek'] | freq: 2
+instance                  | ['örnek', 'durum'] | freq: 10
+intake                    | ['alım', 'tüketim'] | freq: 3
+interference              | ['müdahale', 'karışma'] | freq: 1
+interior                  | ['iç', 'iç taraf'] | freq: 2
+interlock                 | ['kenetlenmek', 'birbirine geçmek'] | freq: 0
+interpretation            | ['yorum', 'yorumlama'] | freq: 0
+intrigue                  | ['merak uyandırmak', 'ilgisini çekmek'] | freq: 2
+introduction              | ['giriş', 'tanıtım'] | freq: 4
+invariable                | ['değişmez', 'sabit'] | freq: 0
+investigation             | ['araştırma', 'inceleme'] | freq: 1
+iron                      | ['demir', 'ütü'] | freq: 2
+irradiate                 | ['ışınlamak', 'radyasyona maruz bırakmak'] | freq: 0
+irritate                  | ['tahriş etmek', 'rahatsız etmek'] | freq: 0
+journal                   | ['akademik dergi', 'dergi'] | freq: 0
+learn                     | ['öğrenmek', 'bellemek'] | freq: 9
+main                      | ['ana', 'temel'] | freq: 9
+mainly                    | ['esas olarak', 'çoğunlukla'] | freq: 9
+maintain                  | ['sürdürmek', 'bakım yapmak'] | freq: 4
+margin                    | ['kenar', 'sınır'] | freq: 0
+mass                      | ['kütle', 'yığın'] | freq: 10
+massive                   | ['muazzam', 'kitlesel'] | freq: 5
+medicine                  | ['tıp', 'ilaç'] | freq: 0
+medium                    | ['ortam', 'araç'] | freq: 2
+message                   | ['mesaj', 'ileti'] | freq: 0
+minor                     | ['küçük', 'önemsiz'] | freq: 1
+monitor                   | ['izlemek', 'gözlemlemek'] | freq: 2
+more                      | ['daha', 'daha fazla'] | freq: 10
+neutral                   | ['nötr', 'tarafsız'] | freq: 2
+notable                   | ['dikkate değer', 'önemli'] | freq: 1
+novel                     | ['yeni', 'özgün'] | freq: 3
+objection                 | ['itiraz', 'karşı çıkma'] | freq: 1
+objective                 | ['nesnel', 'tarafsız'] | freq: 0
+observation               | ['gözlem', 'inceleme'] | freq: 5
+obtain                    | ['elde etmek', 'edinmek'] | freq: 3
+ongoing                   | ['devam eden', 'süregelen'] | freq: 1
+operate                   | ['çalıştırmak', 'işletmek'] | freq: 6
+orient                    | ['yönlendirmek', 'hizalamak'] | freq: 0
+originally                | ['başlangıçta', 'aslen'] | freq: 6
+owing to                  | ['-den dolayı', 'nedeniyle'] | freq: 4
+perform                   | ['yapmak', 'gerçekleştirmek'] | freq: 1
+pesticide                 | ['pestisit', 'böcek ilacı'] | freq: 9
+portion                   | ['kısım', 'bölüm'] | freq: 0
+postpone                  | ['ertelemek', 'tehir etmek'] | freq: 2
+precipitation             | ['yağış', 'çökelme'] | freq: 4
+prevent                   | ['önlemek', 'engel olmak'] | freq: 8
+primary                   | ['birincil', 'temel'] | freq: 5
+principal                 | ['temel', 'başlıca'] | freq: 0
+promote                   | ['teşvik etmek', 'tanıtımını yapmak'] | freq: 10
+rapid                     | ['hızlı', 'ani'] | freq: 4
+raw                       | ['ham', 'işlenmemiş'] | freq: 4
+recycle                   | ['geri dönüştürmek', 'geri dönüşüm sağlamak'] | freq: 8
+reflect                   | ['yansıtmak', 'düşünmek'] | freq: 10
+regard                    | ['ilişkin olmak', 'saygı duymak'] | freq: 3
+regardless of             | ['-e bakılmaksızın', '-e bakmadan'] | freq: 6
+relative                  | ['göreceli', 'göreli'] | freq: 3
+relieve                   | ['rahatlatmak', 'hafifletmek'] | freq: 3
+relieve of                | ['kurtarmak', 'rahatlatmak'] | freq: 1
+render                    | ['hale getirmek', 'sunmak'] | freq: 1
+report                    | ['rapor', 'bildirmek'] | freq: 9
+resistance                | ['direnç', 'karşı koyma'] | freq: 6
+restriction               | ['kısıtlama', 'sınırlama'] | freq: 1
+retain                    | ['muhafaza etmek', 'tutmak'] | freq: 8
+reverse                   | ['tersine çevirmek', 'ters'] | freq: 2
+revise                    | ['gözden geçirmek', 'revize etmek'] | freq: 0
+rock                      | ['kaya', 'taş'] | freq: 8
+root out                  | ['kökünü kazımak', 'ortaya çıkarmak'] | freq: 1
+rotation                  | ['dönme', 'tur'] | freq: 4
+run                       | ['çalıştırmak', 'işletmek'] | freq: 9
+scatter                   | ['dağıtmak', 'saçılmak'] | freq: 6
+select                    | ['seçmek', 'ayıklamak'] | freq: 4
+set                       | ['ayarlamak', 'kurmak'] | freq: 8
+severe                    | ['şiddetli', 'ciddi'] | freq: 1
+show                      | ['göstermek', 'sergilemek'] | freq: 4
+shrink                    | ['küçülmek', 'büzülmek'] | freq: 1
+sole                      | ['tek', 'yegane'] | freq: 1
+solid                     | ['katı', 'sert'] | freq: 1
+stable                    | ['istikrarlı', 'dengeli'] | freq: 5
+stage                     | ['aşama', 'evre'] | freq: 6
+star                      | ['yıldız', 'başrol oynamak'] | freq: 8
+storage                   | ['depolama', 'depo'] | freq: 5
+stream                    | ['akarsu', 'akış'] | freq: 1
+strike against            | ['karşı çıkmak', 'vurmak'] | freq: 1
+subject                   | ['konu', 'tabi tutmak'] | freq: 7
+substantial               | ['önemli', 'kayda değer'] | freq: 2
+sustain                   | ['sürdürmek', 'devam ettirmek'] | freq: 4
+take                      | ['almak', 'kabul etmek'] | freq: 7
+tend                      | ['eğiliminde olmak', 'yönelmek'] | freq: 10
+tension                   | ['gerilim', 'gerginlik'] | freq: 0
+tolerable                 | ['tolere edilebilir', 'katlanılabilir'] | freq: 0
+tolerant                  | ['dayanıklı', 'toleranslı'] | freq: 0
+track                     | ['izini sürmek', 'takip etmek'] | freq: 3
+transcribe                | ['kopyalamak', 'yazıya dökmek'] | freq: 0
+transmission              | ['iletim', 'bulaşma'] | freq: 1
+transmit                  | ['iletmek', 'geçirmek'] | freq: 1
+transport                 | ['taşımak', 'transfer etmek'] | freq: 7
+transportation            | ['taşıma', 'transportasyon'] | freq: 2
+treat                     | ['tedavi etmek', 'işlemek'] | freq: 5
+trial                     | ['deneme', 'test'] | freq: 3
+undergo                   | ['geçirmek', 'maruz kalmak'] | freq: 1
+underlie                  | ['altta yatan neden olmak', 'temelini oluşturmak'] | freq: 0
+uniform                   | ['tekdüze', 'homojen'] | freq: 0
+unstable                  | ['dengesiz', 'kararsız'] | freq: 3
+utilize                   | ['kullanmak', 'faydalanmak'] | freq: 1
+vague                     | ['belirsiz', 'muğlak'] | freq: 0
+vast                      | ['geniş', 'muazzam'] | freq: 10
+vessel                    | ['damar', 'kap'] | freq: 2
+viable                    | ['uygulanabilir', 'yaşayabilir'] | freq: 2
+vibrate                   | ['titremek', 'titreşmek'] | freq: 2
+virtually                 | ['neredeyse', 'hemen hemen'] | freq: 1
+vulnerable                | ['savunmasız', 'hassas'] | freq: 4
+warn                      | ['uyarmak', 'ikaz etmek'] | freq: 0
+wear                      | ['aşınmak', 'yıpranmak'] | freq: 2
+weather                   | ['yıpranmak', 'hava durumuna maruz kalmak'] | freq: 0
+yield                     | ['ürün vermek', 'sağlamak'] | freq: 6

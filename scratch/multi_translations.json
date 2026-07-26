@@ -1,0 +1,1663 @@
+{
+  "passage": [
+    "paragraf",
+    "metin",
+    "geçit"
+  ],
+  "world": [
+    "dünya",
+    "alem",
+    "yeryüzü"
+  ],
+  "scientist": [
+    "bilim insanı",
+    "bilim adamı"
+  ],
+  "earth": [
+    "dünya",
+    "toprak",
+    "yeryüzü"
+  ],
+  "develop": [
+    "geliştirmek",
+    "gelişmek",
+    "ortaya çıkarmak"
+  ],
+  "use": [
+    "kullanmak",
+    "yararlanmak",
+    "tüketmek"
+  ],
+  "change": [
+    "değiştirmek",
+    "değişmek",
+    "takas etmek"
+  ],
+  "read": [
+    "okumak",
+    "oku",
+    "anlaşılmak"
+  ],
+  "cause": [
+    "neden olmak",
+    "sebep olmak",
+    "yol açmak"
+  ],
+  "high": [
+    "yüksek",
+    "daha yüksek"
+  ],
+  "while": [
+    "iken",
+    "o sırada",
+    "-e rağmen",
+    "sırasında"
+  ],
+  "be": [
+    "olmak",
+    "var olmak"
+  ],
+  "long": [
+    "uzun",
+    "daha uzun"
+  ],
+  "make": [
+    "yapmak",
+    "etmek",
+    "oluşturmak"
+  ],
+  "way": [
+    "yol",
+    "yöntem",
+    "tarz"
+  ],
+  "form": [
+    "biçimlendirmek",
+    "oluşturmak",
+    "biçim"
+  ],
+  "become": [
+    "olmak",
+    "hale gelmek",
+    "yaraşmak",
+    "oldu"
+  ],
+  "number": [
+    "sayı",
+    "rakam",
+    "numara"
+  ],
+  "according to": [
+    "-e göre",
+    "göre"
+  ],
+  "include": [
+    "içermek",
+    "katmak",
+    "dahil etmek"
+  ],
+  "live": [
+    "yaşamak",
+    "canlı",
+    "yaşayan"
+  ],
+  "produce": [
+    "üretmek",
+    "neden olmak",
+    "yetiştirmek"
+  ],
+  "more": [
+    "daha",
+    "daha fazla"
+  ],
+  "provide": [
+    "sağlamak",
+    "tedarik etmek",
+    "koşul koymak"
+  ],
+  "scientific": [
+    "bilimsel",
+    "ilmi"
+  ],
+  "create": [
+    "oluşturmak",
+    "ortaya çıkarmak",
+    "yaratmak"
+  ],
+  "increase": [
+    "artmak",
+    "arttırmak",
+    "yükselmek"
+  ],
+  "mean": [
+    "anlamına gelmek",
+    "ortalama",
+    "anlam"
+  ],
+  "reduce": [
+    "azaltmak",
+    "düşürmek",
+    "indirgemek"
+  ],
+  "follow": [
+    "takip etmek",
+    "izlemek",
+    "uymak"
+  ],
+  "battery": [
+    "pil",
+    "batarya",
+    "akü"
+  ],
+  "design": [
+    "tasarlamak",
+    "planlamak",
+    "çizim"
+  ],
+  "condition": [
+    "koşul",
+    "durum",
+    "şart"
+  ],
+  "intelligence": [
+    "zeka",
+    "akıl",
+    "istihbarat"
+  ],
+  "order": [
+    "sıra",
+    "düzen",
+    "emir",
+    "sipariş"
+  ],
+  "crop": [
+    "mahsul",
+    "ürün",
+    "ekin"
+  ],
+  "development": [
+    "gelişme",
+    "gelişim",
+    "kalkınma"
+  ],
+  "compute": [
+    "hesaplamak",
+    "bilgisayarla hesaplamak"
+  ],
+  "country": [
+    "ülke",
+    "memleket",
+    "vatan"
+  ],
+  "despite": [
+    "rağmen",
+    "-e rağmen"
+  ],
+  "exist": [
+    "var olmak",
+    "bulunmak",
+    "hayatta kalmak"
+  ],
+  "impact": [
+    "etki",
+    "tesir",
+    "darbe"
+  ],
+  "improve": [
+    "geliştirmek",
+    "iyileştirmek",
+    "ilerlemek"
+  ],
+  "measure": [
+    "ölçmek",
+    "önlem",
+    "ölçü"
+  ],
+  "model": [
+    "model",
+    "örnek"
+  ],
+  "production": [
+    "üretim",
+    "üretme"
+  ],
+  "rather": [
+    "oldukça",
+    "daha ziyade"
+  ],
+  "tree": [
+    "ağaç",
+    "şema"
+  ],
+  "focus": [
+    "odaklanmak",
+    "odak",
+    "merkez"
+  ],
+  "affect": [
+    "etkilemek",
+    "etki etmek"
+  ],
+  "building": [
+    "bina",
+    "yapı",
+    "inşaat"
+  ],
+  "seed": [
+    "tohum",
+    "çekirdek",
+    "aşılamak"
+  ],
+  "though": [
+    "rağmen",
+    "-e rağmen",
+    "yine de"
+  ],
+  "base": [
+    "temel",
+    "üs",
+    "dayandırmak"
+  ],
+  "have": [
+    "sahip olmak",
+    "elde etmek",
+    "yapmak"
+  ],
+  "call": [
+    "çağırmak",
+    "adlandırmak",
+    "aramak"
+  ],
+  "individual": [
+    "birey",
+    "fert",
+    "şahıs"
+  ],
+  "must": [
+    "-malı",
+    "-meli",
+    "zorunluluk"
+  ],
+  "great": [
+    "harika",
+    "en büyük",
+    "daha büyük"
+  ],
+  "suggest": [
+    "önermek",
+    "belirtmek",
+    "çağrıştırmak"
+  ],
+  "lead": [
+    "yol açmak",
+    "öncülük etmek",
+    "kurşun"
+  ],
+  "therefore": [
+    "bu yüzden",
+    "bundan dolayı",
+    "bu nedenle"
+  ],
+  "able": [
+    "yapabilen",
+    "-ebilmek"
+  ],
+  "advance": [
+    "ilerleme",
+    "gelişme",
+    "avans"
+  ],
+  "instrument": [
+    "alet",
+    "araç",
+    "cihaz",
+    "enstrüman"
+  ],
+  "require": [
+    "gerektirmek",
+    "ihtiyaç duymak",
+    "talep etmek"
+  ],
+  "wave": [
+    "dalga",
+    "dalgalamak",
+    "el sallamak"
+  ],
+  "whether": [
+    "olup olmadığı",
+    "-ıp -madığı"
+  ],
+  "major": [
+    "büyük",
+    "önemli",
+    "ana"
+  ],
+  "occur": [
+    "meydana gelmek",
+    "olmak",
+    "akla gelmek"
+  ],
+  "shift": [
+    "değiştirmek",
+    "vardiya",
+    "kaydırmak"
+  ],
+  "characteristic": [
+    "özellik",
+    "karakteristik",
+    "nitelik"
+  ],
+  "compound": [
+    "bileşik",
+    "birleştirmek"
+  ],
+  "home": [
+    "ev",
+    "yuva",
+    "vatan"
+  ],
+  "matter": [
+    "madde",
+    "konu",
+    "önem taşımak"
+  ],
+  "property": [
+    "özellik",
+    "nitelik",
+    "mülk"
+  ],
+  "unless": [
+    "-medikçe",
+    "-madıkça",
+    "aksi takdirde"
+  ],
+  "vary": [
+    "çeşitlilik göstermek",
+    "değişmek",
+    "farklı olmak"
+  ],
+  "application": [
+    "uygulama",
+    "başvuru",
+    "müracaat"
+  ],
+  "depend": [
+    "bağlı olmak",
+    "güvenmek",
+    "tabi olmak"
+  ],
+  "less": [
+    "daha az",
+    "az"
+  ],
+  "offer": [
+    "sunmak",
+    "teklif etmek",
+    "öneri"
+  ],
+  "remain": [
+    "kalmak",
+    "sürdürmek",
+    "arta kalmak"
+  ],
+  "reveal": [
+    "ortaya çıkarmak",
+    "ifşa etmek",
+    "göstermek"
+  ],
+  "seem": [
+    "görünmek",
+    "öyle gelmek"
+  ],
+  "as well as": [
+    "yanı sıra",
+    "hem de",
+    "birlikte"
+  ],
+  "clear": [
+    "açık",
+    "net",
+    "temizlemek"
+  ],
+  "climatic": [
+    "iklimsel",
+    "iklime ait"
+  ],
+  "discover": [
+    "keşfetmek",
+    "bulmak",
+    "ortaya çıkarmak"
+  ],
+  "identify": [
+    "tanımlamak",
+    "belirlemek",
+    "teşhis etmek"
+  ],
+  "map": [
+    "harita",
+    "plan",
+    "haritasını çıkarmak"
+  ],
+  "warm": [
+    "ılık",
+    "ısıtmak",
+    "ısınmak"
+  ],
+  "away": [
+    "uzak",
+    "uzakta"
+  ],
+  "degree": [
+    "derece",
+    "rütbe",
+    "aşama"
+  ],
+  "good": [
+    "iyi",
+    "daha iyi"
+  ],
+  "grow": [
+    "büyümek",
+    "yetişmek",
+    "gelişmek"
+  ],
+  "interest": [
+    "ilgi",
+    "alaka",
+    "çıkar",
+    "faiz"
+  ],
+  "support": [
+    "desteklemek",
+    "katlanmak",
+    "geçindirmek"
+  ],
+  "trait": [
+    "özellik",
+    "nitelik",
+    "kişisel özellik"
+  ],
+  "current": [
+    "akım",
+    "akıntı",
+    "güncel"
+  ],
+  "define": [
+    "tanımlamak",
+    "belirlemek",
+    "açıklamak"
+  ],
+  "event": [
+    "olay",
+    "hadise",
+    "gelişme"
+  ],
+  "expand": [
+    "genişlemek",
+    "yayılmak",
+    "büyümek"
+  ],
+  "expose": [
+    "maruz bırakmak",
+    "açığa çıkarmak",
+    "ifşa etmek"
+  ],
+  "freeze": [
+    "donmak",
+    "dondurmak",
+    "durdurmak"
+  ],
+  "instance": [
+    "örnek",
+    "durum",
+    "misal"
+  ],
+  "mass": [
+    "kütle",
+    "yığın",
+    "küme"
+  ],
+  "reflect": [
+    "yansıtmak",
+    "düşünmek",
+    "belirtmek"
+  ],
+  "tend": [
+    "eğiliminde olmak",
+    "yönelmek"
+  ],
+  "vast": [
+    "geniş",
+    "muazzam",
+    "çok büyük"
+  ],
+  "available": [
+    "mevcut",
+    "hazır"
+  ],
+  "extensive": [
+    "geniş",
+    "kapsamlı",
+    "yaygın"
+  ],
+  "learn": [
+    "öğrenmek",
+    "bellemek",
+    "haber almak"
+  ],
+  "main": [
+    "ana",
+    "temel",
+    "başlıca"
+  ],
+  "mainly": [
+    "esas olarak",
+    "çoğunlukla",
+    "daha çok"
+  ],
+  "pesticide": [
+    "pestisit",
+    "böcek ilacı"
+  ],
+  "report": [
+    "rapor",
+    "bildirmek",
+    "rapor etmek"
+  ],
+  "run": [
+    "çalıştırmak",
+    "işletmek",
+    "yönetmek",
+    "koşmak"
+  ],
+  "attitude": [
+    "tutum",
+    "davranış",
+    "tavır"
+  ],
+  "consist": [
+    "oluşmak",
+    "meydana gelmek",
+    "ibaret olmak"
+  ],
+  "contribution": [
+    "katkı",
+    "bağış",
+    "yardım"
+  ],
+  "direction": [
+    "yön",
+    "doğrultu",
+    "talimat"
+  ],
+  "prevent": [
+    "önlemek",
+    "engel olmak",
+    "korumak"
+  ],
+  "promote": [
+    "teşvik etmek",
+    "tanıtımını yapmak",
+    "desteklemek"
+  ],
+  "recycle": [
+    "geri dönüştürmek",
+    "geri dönüşüm sağlamak"
+  ],
+  "retain": [
+    "muhafaza etmek",
+    "tutmak",
+    "sürdürmek"
+  ],
+  "rock": [
+    "kaya",
+    "taş"
+  ],
+  "set": [
+    "ayarlamak",
+    "kurmak",
+    "küme"
+  ],
+  "star": [
+    "yıldız",
+    "başrol oynamak"
+  ],
+  "unite": [
+    "birleşmek",
+    "birleştirmek",
+    "bağlamak"
+  ],
+  "apply": [
+    "başvurmak",
+    "uygulamak",
+    "yürürlüğe koymak"
+  ],
+  "attribute": [
+    "atfetmek",
+    "bağlamak",
+    "özellik"
+  ],
+  "debate": [
+    "tartışma",
+    "müzakere",
+    "çekişme"
+  ],
+  "establish": [
+    "kurmak",
+    "belirlemek",
+    "kanıtlamak"
+  ],
+  "subject": [
+    "konu",
+    "tabi tutmak",
+    "denek",
+    "ders"
+  ],
+  "transport": [
+    "taşımak",
+    "transfer etmek",
+    "ulaşım"
+  ],
+  "alter": [
+    "değiştirmek",
+    "başkalaşmak",
+    "uyarlamak"
+  ],
+  "as to": [
+    "-e dair",
+    "konusunda"
+  ],
+  "attach": [
+    "eklemek",
+    "bağlamak",
+    "iliştirmek"
+  ],
+  "conduct": [
+    "yürütmek",
+    "yönetmek",
+    "iletmek"
+  ],
+  "contribute": [
+    "katkıda bulunmak",
+    "bağış yapmak",
+    "yazı yazmak"
+  ],
+  "deposit": [
+    "tortu",
+    "çökelti",
+    "yatak",
+    "birikinti"
+  ],
+  "distant": [
+    "uzak",
+    "mesafeli"
+  ],
+  "ensure": [
+    "garantiye almak",
+    "sağlamak",
+    "emin olmak"
+  ],
+  "infer": [
+    "çıkarım yapmak",
+    "anlam çıkarmak",
+    "ulaşmak"
+  ],
+  "operate": [
+    "çalıştırmak",
+    "işletmek",
+    "ameliyat etmek"
+  ],
+  "originally": [
+    "başlangıçta",
+    "aslen",
+    "ilk olarak"
+  ],
+  "resistance": [
+    "direnç",
+    "karşı koyma",
+    "rezistans"
+  ],
+  "scatter": [
+    "dağıtmak",
+    "saçılmak",
+    "saçmak"
+  ],
+  "stage": [
+    "aşama",
+    "evre",
+    "sahne"
+  ],
+  "yield": [
+    "ürün vermek",
+    "sağlamak",
+    "verim",
+    "ürün"
+  ],
+  "adopt": [
+    "benimsemek",
+    "kabul etmek",
+    "uygulamak"
+  ],
+  "conflict": [
+    "çelişmek",
+    "çatışmak",
+    "savaş"
+  ],
+  "course": [
+    "rota",
+    "akış",
+    "gidişat"
+  ],
+  "cover": [
+    "kapsamak",
+    "kaplamak",
+    "örtmek"
+  ],
+  "decline": [
+    "azalmak",
+    "gerilemek",
+    "reddetmek"
+  ],
+  "extract": [
+    "çıkarmak",
+    "özünü çıkarmak",
+    "alıntı yapmak"
+  ],
+  "failure": [
+    "başarısızlık",
+    "yetersizlik",
+    "arıza"
+  ],
+  "massive": [
+    "muazzam",
+    "kitlesel",
+    "büyük"
+  ],
+  "observation": [
+    "gözlem",
+    "inceleme",
+    "rasat"
+  ],
+  "primary": [
+    "birincil",
+    "temel",
+    "başlıca"
+  ],
+  "stable": [
+    "istikrarlı",
+    "dengeli",
+    "stabil"
+  ],
+  "storage": [
+    "depolama",
+    "depo"
+  ],
+  "treat": [
+    "tedavi etmek",
+    "işlemek",
+    "davranmak"
+  ],
+  "achieve": [
+    "başarmak",
+    "elde etmek",
+    "kazanmak"
+  ],
+  "capable": [
+    "yapabilen",
+    "kabiliyetli"
+  ],
+  "combine": [
+    "birleştirmek",
+    "birleşmek",
+    "kombine etmek"
+  ],
+  "communicate": [
+    "iletişim kurmak",
+    "iletmek",
+    "haberleşmek"
+  ],
+  "consequence": [
+    "sonuç",
+    "netice",
+    "önem"
+  ],
+  "considerable": [
+    "hatırı sayılır",
+    "önemli"
+  ],
+  "eliminate": [
+    "yok etmek",
+    "ortadan kaldırmak",
+    "elemek"
+  ],
+  "enable": [
+    "olanak tanımak",
+    "-ebilmesini sağlamak",
+    "olanak vermek"
+  ],
+  "enormous": [
+    "muazzam",
+    "çok büyük",
+    "kocaman"
+  ],
+  "evaluate": [
+    "değerlendirmek",
+    "ölçmek",
+    "paha biçmek"
+  ],
+  "incorporate": [
+    "dahil etmek",
+    "birleştirmek",
+    "bünyesine katmak"
+  ],
+  "introduction": [
+    "giriş",
+    "tanıtım",
+    "sunuş"
+  ],
+  "maintain": [
+    "sürdürmek",
+    "bakım yapmak",
+    "savunmak"
+  ],
+  "precipitation": [
+    "yağış",
+    "çökelme"
+  ],
+  "rapid": [
+    "hızlı",
+    "ani",
+    "çabuk"
+  ],
+  "raw": [
+    "ham",
+    "işlenmemiş",
+    "çiğ"
+  ],
+  "rotation": [
+    "dönme",
+    "tur",
+    "rotasyon"
+  ],
+  "select": [
+    "seçmek",
+    "ayıklamak"
+  ],
+  "show": [
+    "göstermek",
+    "sergilemek",
+    "kanıtlamak"
+  ],
+  "sustain": [
+    "sürdürmek",
+    "devam ettirmek",
+    "desteklemek"
+  ],
+  "vulnerable": [
+    "savunmasız",
+    "hassas"
+  ],
+  "achievement": [
+    "başarı",
+    "elde etme",
+    "kazanım"
+  ],
+  "arise": [
+    "ortaya çıkmak",
+    "kaynaklanmak",
+    "başkaldırmak"
+  ],
+  "brief": [
+    "kısa",
+    "özet",
+    "özetlemek"
+  ],
+  "capture": [
+    "yakalamak",
+    "ele geçirmek",
+    "zapt etmek"
+  ],
+  "cease": [
+    "sona ermek",
+    "durdurmak",
+    "kesilmek"
+  ],
+  "confirm": [
+    "onaylamak",
+    "doğrulamak",
+    "pekiştirmek"
+  ],
+  "enhance": [
+    "geliştirmek",
+    "arttırmak",
+    "yükseltmek"
+  ],
+  "estimate": [
+    "tahmin etmek",
+    "değer biçmek",
+    "hesaplamak"
+  ],
+  "fatigue": [
+    "yorgunluk",
+    "metal yorgunluğu",
+    "tükenmişlik"
+  ],
+  "immune": [
+    "bağışık",
+    "muaf",
+    "korunmuş"
+  ],
+  "indicate": [
+    "göstermek",
+    "belirtmek",
+    "işaret etmek"
+  ],
+  "intake": [
+    "alım",
+    "tüketim",
+    "giriş"
+  ],
+  "novel": [
+    "yeni",
+    "özgün",
+    "sıra dışı",
+    "roman"
+  ],
+  "obtain": [
+    "elde etmek",
+    "edinmek",
+    "sağlamak"
+  ],
+  "regard": [
+    "ilişkin olmak",
+    "saygı duymak",
+    "hasip olmak"
+  ],
+  "relative": [
+    "göreceli",
+    "göreli",
+    "oransal",
+    "akraba"
+  ],
+  "relieve": [
+    "rahatlatmak",
+    "hafifletmek",
+    "ziyadesiyle azaltmak"
+  ],
+  "track": [
+    "izini sürmek",
+    "takip etmek",
+    "izlemek"
+  ],
+  "trial": [
+    "deneme",
+    "test",
+    "duruşma"
+  ],
+  "unstable": [
+    "dengesiz",
+    "kararsız"
+  ],
+  "circulate": [
+    "dolaşmak",
+    "devretmek",
+    "yayılmak"
+  ],
+  "conclude": [
+    "sonuçlandırmak",
+    "sonuca varmak",
+    "bitirmek"
+  ],
+  "defend": [
+    "savunmak",
+    "korumak",
+    "müdafaa etmek"
+  ],
+  "delay": [
+    "gecikmek",
+    "gecikme",
+    "erteleme"
+  ],
+  "display": [
+    "görüntülemek",
+    "sergilemek",
+    "göstermek"
+  ],
+  "distribute": [
+    "dağıtmak",
+    "yaymak",
+    "sınıflandırmak"
+  ],
+  "endure": [
+    "katlanmak",
+    "dayanmak",
+    "sürdürmek"
+  ],
+  "execute": [
+    "yürütmek",
+    "uygulamak",
+    "idam etmek"
+  ],
+  "hence": [
+    "bu nedenle",
+    "bundan dolayı",
+    "böylece"
+  ],
+  "hinder": [
+    "engellemek",
+    "aksatmak",
+    "mani olmak"
+  ],
+  "immense": [
+    "muazzam",
+    "çok büyük",
+    "engin"
+  ],
+  "induce": [
+    "uyarmak",
+    "indüklemek",
+    "neden olmak"
+  ],
+  "inferior": [
+    "daha aşağı",
+    "alt",
+    "düşük seviyede"
+  ],
+  "insight": [
+    "kavrayış",
+    "anlayış",
+    "içgörü"
+  ],
+  "install": [
+    "kurmak",
+    "yerleştirmek"
+  ],
+  "interior": [
+    "iç",
+    "iç taraf",
+    "iç mekan"
+  ],
+  "intrigue": [
+    "merak uyandırmak",
+    "ilgisini çekmek",
+    "entrika"
+  ],
+  "iron": [
+    "demir",
+    "ütü"
+  ],
+  "medium": [
+    "ortam",
+    "araç",
+    "orta"
+  ],
+  "monitor": [
+    "izlemek",
+    "gözlemlemek",
+    "ekran"
+  ],
+  "neutral": [
+    "nötr",
+    "tarafsız"
+  ],
+  "postpone": [
+    "ertelemek",
+    "tehir etmek"
+  ],
+  "reverse": [
+    "tersine çevirmek",
+    "ters",
+    "tersi"
+  ],
+  "substantial": [
+    "önemli",
+    "kayda değer",
+    "büyük"
+  ],
+  "transportation": [
+    "taşıma",
+    "transportasyon",
+    "ulaşım"
+  ],
+  "vessel": [
+    "damar",
+    "kap",
+    "gemi"
+  ],
+  "viable": [
+    "uygulanabilir",
+    "yaşayabilir"
+  ],
+  "vibrate": [
+    "titremek",
+    "titreşmek"
+  ],
+  "wear": [
+    "aşınmak",
+    "yıpranmak",
+    "giymek"
+  ],
+  "abandon": [
+    "terk etmek",
+    "vazgeçmek",
+    "bırakmak"
+  ],
+  "abundant": [
+    "bol",
+    "bereketli"
+  ],
+  "advocate": [
+    "savunmak",
+    "desteklemek",
+    "savunucu",
+    "taraftar"
+  ],
+  "assume": [
+    "varsaymak",
+    "üstlenmek",
+    "takınmak"
+  ],
+  "breakoff": [
+    "koparmak",
+    "ilişkiyi kesmek",
+    "kopma"
+  ],
+  "commit": [
+    "adamak",
+    "taahhüt etmek",
+    "işlemek"
+  ],
+  "constraint": [
+    "kısıtlama",
+    "engel",
+    "baskı"
+  ],
+  "convertible": [
+    "dönüştürülebilir",
+    "çevrilebilir"
+  ],
+  "disperse": [
+    "dağılmak",
+    "dağıtmak",
+    "yayılmak"
+  ],
+  "enact": [
+    "yasalaştırmak",
+    "canlandırmak",
+    "oynamak"
+  ],
+  "endow": [
+    "bahşetmek",
+    "donatmak",
+    "bağışlamak"
+  ],
+  "engage": [
+    "meşgul olmak",
+    "ilgilenmek",
+    "angaje etmek"
+  ],
+  "exhaustion": [
+    "tükenme",
+    "bitkinlik",
+    "yorgunluk"
+  ],
+  "extraction": [
+    "özünü çıkarma",
+    "çekip çıkarma",
+    "ekstraksiyon"
+  ],
+  "fulfil": [
+    "yerine getirmek",
+    "yapmak",
+    "tamamlamak"
+  ],
+  "gaseous": [
+    "gaz halinde",
+    "gazlı"
+  ],
+  "grasp": [
+    "kavramak",
+    "anlamak",
+    "tutmak"
+  ],
+  "imperative": [
+    "zorunlu",
+    "acil",
+    "zorunluluk"
+  ],
+  "interference": [
+    "müdahale",
+    "karışma",
+    "girişim"
+  ],
+  "investigation": [
+    "araştırma",
+    "inceleme",
+    "soruşturma"
+  ],
+  "minor": [
+    "küçük",
+    "önemsiz",
+    "ikincil"
+  ],
+  "notable": [
+    "dikkate değer",
+    "önemli"
+  ],
+  "objection": [
+    "itiraz",
+    "karşı çıkma"
+  ],
+  "ongoing": [
+    "devam eden",
+    "süregelen"
+  ],
+  "perform": [
+    "yapmak",
+    "gerçekleştirmek",
+    "icra etmek"
+  ],
+  "render": [
+    "hale getirmek",
+    "sunmak",
+    "oluşturmak"
+  ],
+  "restriction": [
+    "kısıtlama",
+    "sınırlama",
+    "engel"
+  ],
+  "severe": [
+    "şiddetli",
+    "ciddi",
+    "ağır"
+  ],
+  "shrink": [
+    "küçülmek",
+    "büzülmek",
+    "çekmek"
+  ],
+  "sole": [
+    "tek",
+    "yegane",
+    "ayak tabanı"
+  ],
+  "solid": [
+    "katı",
+    "sert",
+    "sağlam"
+  ],
+  "stream": [
+    "akarsu",
+    "akış",
+    "akıntı"
+  ],
+  "transmission": [
+    "iletim",
+    "bulaşma",
+    "geçiş"
+  ],
+  "transmit": [
+    "iletmek",
+    "geçirmek",
+    "yaymak"
+  ],
+  "undergo": [
+    "geçirmek",
+    "maruz kalmak",
+    "başından geçmek"
+  ],
+  "utilize": [
+    "kullanmak",
+    "faydalanmak",
+    "yararlanmak"
+  ],
+  "virtually": [
+    "neredeyse",
+    "hemen hemen",
+    "adeta"
+  ],
+  "aggregate": [
+    "toplam",
+    "bir araya getirmek",
+    "küme"
+  ],
+  "bulk": [
+    "büyük miktar",
+    "yığın",
+    "toplu"
+  ],
+  "conceive": [
+    "düşünmek",
+    "tasarlamak",
+    "hamile kalmak"
+  ],
+  "contract": [
+    "sözleşme",
+    "kasılmak",
+    "büzülmek"
+  ],
+  "depress": [
+    "düşürmek",
+    "bastırmak",
+    "çökertmek"
+  ],
+  "district": [
+    "bölge",
+    "alan",
+    "ilçe"
+  ],
+  "estate": [
+    "mülk",
+    "arazi",
+    "emlak"
+  ],
+  "excel": [
+    "üstün olmak",
+    "seçkin olmak",
+    "parlamak"
+  ],
+  "exhaust": [
+    "tüketmek",
+    "egzoz gazı",
+    "yormak"
+  ],
+  "exploit": [
+    "faydalanmak",
+    "kullanmak",
+    "sömürgelik"
+  ],
+  "fault": [
+    "fay",
+    "hata",
+    "arıza"
+  ],
+  "fission": [
+    "bölünme",
+    "fisyon"
+  ],
+  "fluctuate": [
+    "dalgalanmak",
+    "iniş çıkış yapmak"
+  ],
+  "fuse": [
+    "ergitmek",
+    "erimek",
+    "sigorta"
+  ],
+  "fusion": [
+    "nükleer kaynaşma",
+    "füzyon",
+    "birleşme"
+  ],
+  "gauge": [
+    "ölçmek",
+    "ölçer",
+    "gösterge"
+  ],
+  "genuine": [
+    "gerçek",
+    "hakiki",
+    "samimi"
+  ],
+  "gradient": [
+    "gradyan",
+    "eğim",
+    "artış hızı"
+  ],
+  "hostile": [
+    "elverişsiz",
+    "düşmanca",
+    "zorlu"
+  ],
+  "impose": [
+    "yüklemek",
+    "dayatmak",
+    "uygulamaya koymak"
+  ],
+  "impregnate": [
+    "emdirmek",
+    "doyurmak",
+    "hamile bırakmak"
+  ],
+  "inexorable": [
+    "amansız",
+    "durdurulamaz"
+  ],
+  "inflect": [
+    "bükmek",
+    "çekimlemek",
+    "saptırmak"
+  ],
+  "inlet": [
+    "giriş",
+    "körfez",
+    "ağız"
+  ],
+  "insane": [
+    "deli",
+    "akıl hastası",
+    "çılgın"
+  ],
+  "interlock": [
+    "kenetlenmek",
+    "birbirine geçmek",
+    "kilitlemek"
+  ],
+  "interpretation": [
+    "yorum",
+    "yorumlama",
+    "değerlendirme"
+  ],
+  "invariable": [
+    "değişmez",
+    "sabit"
+  ],
+  "irradiate": [
+    "ışınlamak",
+    "radyasyona maruz bırakmak",
+    "ışımak"
+  ],
+  "irritate": [
+    "tahriş etmek",
+    "rahatsız etmek",
+    "sinirlendirmek"
+  ],
+  "journal": [
+    "akademik dergi",
+    "dergi",
+    "günlük"
+  ],
+  "margin": [
+    "kenar",
+    "sınır",
+    "hata payı",
+    "marj"
+  ],
+  "medicine": [
+    "tıp",
+    "ilaç"
+  ],
+  "message": [
+    "mesaj",
+    "ileti",
+    "haber"
+  ],
+  "objective": [
+    "nesnel",
+    "tarafsız",
+    "amaç"
+  ],
+  "orient": [
+    "yönlendirmek",
+    "hizalamak",
+    "uyum sağlamak"
+  ],
+  "portion": [
+    "kısım",
+    "bölüm",
+    "porsiyon"
+  ],
+  "principal": [
+    "temel",
+    "başlıca",
+    "asıl",
+    "müdür"
+  ],
+  "revise": [
+    "gözden geçirmek",
+    "revize etmek",
+    "düzeltmek"
+  ],
+  "tension": [
+    "gerilim",
+    "gerginlik",
+    "tansiyon"
+  ],
+  "tolerable": [
+    "tolere edilebilir",
+    "katlanılabilir"
+  ],
+  "tolerant": [
+    "dayanıklı",
+    "toleranslı",
+    "hoşgörülü"
+  ],
+  "transcribe": [
+    "kopyalamak",
+    "yazıya dökmek",
+    "transkribe etmek"
+  ],
+  "underlie": [
+    "altta yatan neden olmak",
+    "temelini oluşturmak"
+  ],
+  "uniform": [
+    "tekdüze",
+    "homojen",
+    "aynı"
+  ],
+  "vague": [
+    "belirsiz",
+    "muğlak",
+    "net olmayan"
+  ],
+  "warn": [
+    "uyarmak",
+    "ikaz etmek",
+    "haber vermek"
+  ],
+  "weather": [
+    "yıpranmak",
+    "hava durumuna maruz kalmak",
+    "atlatmak"
+  ],
+  "close": [
+    "kapatmak",
+    "yakın",
+    "samimi"
+  ],
+  "instead of": [
+    "-in yerine",
+    "yerine"
+  ],
+  "because of": [
+    "-den dolayı",
+    "yüzünden",
+    "nedeniyle"
+  ],
+  "along with": [
+    "ile birlikte",
+    "yanı sıra"
+  ],
+  "as long as": [
+    "-dığı sürece",
+    "-diği takdirde"
+  ],
+  "hold back": [
+    "engellemek",
+    "geri çekilmek",
+    "tutmak"
+  ],
+  "relieve of": [
+    "kurtarmak",
+    "rahatlatmak",
+    "muaf tutmak"
+  ],
+  "take": [
+    "almak",
+    "kabul etmek",
+    "götürmek",
+    "alınmış"
+  ],
+  "engage in": [
+    "meşgul olmak",
+    "-ile ilgilenmek"
+  ],
+  "do": [
+    "yapmak",
+    "etmek"
+  ],
+  "criterion": [
+    "kriter",
+    "ölçüt",
+    "kriterler"
+  ],
+  "give up": [
+    "vazgeçmek",
+    "pes etmek",
+    "bırakmak"
+  ],
+  "in case": [
+    "durumunda",
+    "ihitmaline karşı"
+  ],
+  "in contrast": [
+    "aksine",
+    "tersine"
+  ],
+  "in relation to": [
+    "ilişkin olarak",
+    "-ile ilgili olarak"
+  ],
+  "late": [
+    "geç",
+    "sonlarında",
+    "gecikmiş"
+  ],
+  "owing to": [
+    "-den dolayı",
+    "nedeniyle",
+    "sayesinde"
+  ],
+  "rather than": [
+    "-den ziyade",
+    "yerine"
+  ],
+  "regardless of": [
+    "-e bakılmaksızın",
+    "bakılmaksızın",
+    "-e bakmadan"
+  ],
+  "root out": [
+    "kökünü kazımak",
+    "ortaya çıkarmak"
+  ],
+  "similar to": [
+    "-e benzer",
+    "benzer"
+  ],
+  "strike against": [
+    "karşı çıkmak",
+    "vurmak",
+    "saldırmak"
+  ],
+  "accompany": [
+    "eşlik etmek",
+    "eşlik etti"
+  ],
+  "acknowledge": [
+    "kabullenmek",
+    "kabul edildi"
+  ]
+}
