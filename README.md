@@ -151,3 +151,12 @@ vercel --prod
 ```
 
 Tüm statik varlık yönlendirmeleri, `/api/*` istekleri ve sunucusuz fonksiyonlar `vercel.json` içerisinde konfigüre edilmiştir.
+
+---
+
+## ⚖️ Yasal Uyarı & Telif Hakkı Bildirimi (Disclaimer)
+
+> **Önemli Bilgilendirme:** Bu proje ve kaynak kodları **tamamen kişisel eğitim, akademik yabancı dil gelişimini destekleme ve açık kaynaklı yazılım geliştirme** amacıyla hazırlanmıştır. 
+> - Platform içerisindeki hiçbir modül, kelime havuzu veya sınav içeriği **kesinlikle ticari bir nitelik taşımamakta**, herhangi bir ücretli abonelik, gelir veya ticari kazanç amacı gütmemektedir.
+> - Sınav isimleri, telifli terimler ve soru formatları **ÖSYM (Ölçme, Seçme ve Yerleştirme Merkezi)** ve ilgili resmi sınav otoritelerine aittir.
+> - Bu yazılım projesi, yalnızca öğrencilerin bireysel kelime ezberleme, çeviri pratikleri ve öğrenme eğrilerini takip etmelerine yardımcı olan açık kaynaklı, ücretsiz bir eğitim aracıdır.
