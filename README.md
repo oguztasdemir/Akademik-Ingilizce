@@ -1,5 +1,3 @@
- ta
-
 # 🎓 YÖKDİL & YDS Akademik İngilizce Hazırlık Platformu
 
 Bu proje; **YÖKDİL** (Fen Bilimleri, Sosyal Bilimler, Sağlık Bilimleri) ve **YDS** sınavlarına hazırlanan öğrenciler için geliştirilmiş, kapsamlı bir akademik İngilizce öğrenim ve hazırlık platformudur. Uygulama, masaüstü (Web) ve mobil cihazlar için optimize edilmiş iki farklı kullanıcı arayüzü (GUI), yerel veri tabanları, akıllı çalışma algoritmaları ve yapay zeka destekli çalışma koçu bileşenleriyle donatılmıştır.
