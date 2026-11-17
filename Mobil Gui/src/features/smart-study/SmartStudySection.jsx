@@ -43,7 +43,9 @@ const SmartStudySection = ({ selectedCategory, awardPetXP, triggerConfetti, acti
         const db = {};
         for (let day = 1; day <= 30; day++) {
           const path = `../../../../Dataset/yokdil/${category}/gelismis_kelime_kampi/day_${day}.json`;
-          const matchingKey = Object.keys(campModules).find(k => k.includes(`yokdil/${category}/gelismis_kelime_kampi/day_${day}.json`));
+          const matchingKey =
+            Object.keys(campModules).find(k => k.includes(`yokdil/${category}/gelismis_kelime_kampi/day_${day}.json`)) ||
+            Object.keys(campModules).find(k => k.includes(`yokdil/fen/gelismis_kelime_kampi/day_${day}.json`));
           if (matchingKey) {
             const loader = campModules[matchingKey];
             const mod = await loader();

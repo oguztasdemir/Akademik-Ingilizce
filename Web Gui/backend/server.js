@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 // Reference root-level folders
 const getPdfsPath = () => {
@@ -26,12 +26,18 @@ const getDatasetPath = () => {
 
 const pdfsDir = getPdfsPath();
 const datasetDir = getDatasetPath();
-const lecturesDir = path.join(datasetDir, 'genel', 'lectures');
+const resolveLecturesDir = () => {
+  const genelLectures = path.join(datasetDir, 'genel', 'lectures');
+  if (fs.existsSync(genelLectures)) return genelLectures;
+  return path.join(datasetDir, 'fen', 'konu_anlatimi');
+};
+const lecturesDir = resolveLecturesDir();
 const questionsDir = datasetDir;
 
 const getQuestionsDir = (req) => {
   const category = req.params.category || req.query.category || 'fen';
-  return path.join(datasetDir, category);
+  const catPath = path.join(datasetDir, category);
+  return fs.existsSync(catPath) ? catPath : path.join(datasetDir, 'fen');
 };
 
 // Serve PDF files statically
@@ -59,7 +65,11 @@ app.get('/pdfs/YOKDIL_Temiz_Soru_Kitapcigi.pdf', (req, res) => {
 
 // Endpoint to list all exams
 app.get(['/api/exams', '/api/:category/exams'], (req, res) => {
-  const dbPath = path.join(getQuestionsDir(req), 'exams.json');
+  const dir = getQuestionsDir(req);
+  let dbPath = path.join(dir, 'exams.json');
+  if (!fs.existsSync(dbPath)) {
+    dbPath = path.join(dir, 'cikmis_sinavlar', 'sinav_listesi.json');
+  }
   if (fs.existsSync(dbPath)) {
     const data = fs.readFileSync(dbPath, 'utf8');
     res.json(JSON.parse(data));
@@ -102,10 +112,13 @@ app.get('/api/lectures/:id', (req, res) => {
   }
 });
 
-// Endpoint to get exercises of a specific lecture from the general (genel) folder
+// Endpoint to get exercises of a specific lecture
 app.get('/api/lectures/:id/exercises', (req, res) => {
   const lectureId = req.params.id;
-  const exercisesPath = path.join(datasetDir, 'genel', 'lecture_exercises.json');
+  let exercisesPath = path.join(datasetDir, 'genel', 'lecture_exercises.json');
+  if (!fs.existsSync(exercisesPath)) {
+    exercisesPath = path.join(lecturesDir, 'lecture_exercises.json');
+  }
   if (fs.existsSync(exercisesPath)) {
     try {
       const data = JSON.parse(fs.readFileSync(exercisesPath, 'utf8'));
@@ -121,7 +134,10 @@ app.get('/api/lectures/:id/exercises', (req, res) => {
 
 // Endpoint to get YÖKDİL reading passages database
 app.get('/api/passages', (req, res) => {
-  const passagesPath = path.join(datasetDir, 'genel', 'reading_passages.json');
+  let passagesPath = path.join(datasetDir, 'genel', 'reading_passages.json');
+  if (!fs.existsSync(passagesPath)) {
+    passagesPath = path.join(datasetDir, 'fen', 'paragraflar', 'passages_list.json');
+  }
   if (fs.existsSync(passagesPath)) {
     try {
       const data = JSON.parse(fs.readFileSync(passagesPath, 'utf8'));
@@ -293,9 +309,13 @@ app.get('/api/local-ip', (req, res) => {
 // Endpoint to list academic words database with dynamic exam frequency counts
 // Endpoint to list academic words database with dynamic exam frequency counts
 app.get(['/api/vocabulary', '/api/:category/vocabulary'], (req, res) => {
-  const vocabPath = path.join(getQuestionsDir(req), 'vocab.json');
-  const dbPath = path.join(getQuestionsDir(req), 'exams.json');
-  
+  const dir = getQuestionsDir(req);
+  let vocabPath = path.join(dir, 'vocab.json');
+  if (!fs.existsSync(vocabPath)) {
+    vocabPath = path.join(dir, 'gelismis_kelime_kampi', 'akademik_kelime_listesi.json');
+  }
+  const dbPath = path.join(dir, 'exams.json');
+
   if (!fs.existsSync(vocabPath)) {
     return res.status(404).json({ error: 'Vocabulary database not found' });
   }
@@ -304,13 +324,26 @@ app.get(['/api/vocabulary', '/api/:category/vocabulary'], (req, res) => {
   let exams = [];
   if (fs.existsSync(dbPath)) {
     exams = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
+  } else {
+    const examsDir = path.join(dir, 'cikmis_sinavlar');
+    if (fs.existsSync(examsDir)) {
+      fs.readdirSync(examsDir)
+        .filter(f => f.endsWith('.json') && f !== 'sinav_listesi.json')
+        .forEach(f => {
+          try {
+            const parsed = JSON.parse(fs.readFileSync(path.join(examsDir, f), 'utf8'));
+            if (parsed && Array.isArray(parsed.questions)) exams.push(parsed);
+          } catch (e) {}
+        });
+    }
   }
 
   // 1. Build word frequency map from exams
   const wordCounts = {};
   exams.forEach(ex => {
-    ex.questions.forEach(q => {
-      const text = (q.text + ' ' + (q.options || []).join(' ')).toLowerCase();
+    (ex.questions || []).forEach(q => {
+      const optsText = Array.isArray(q.options) ? q.options.join(' ') : Object.values(q.options || {}).join(' ');
+      const text = ((q.text || '') + ' ' + optsText).toLowerCase();
       const words = text.match(/[a-z]+/g) || [];
       words.forEach(w => {
         wordCounts[w] = (wordCounts[w] || 0) + 1;
@@ -320,9 +353,9 @@ app.get(['/api/vocabulary', '/api/:category/vocabulary'], (req, res) => {
 
   // 2. Map vocabulary using lookups
   vocabList = vocabList.map(item => {
-    const cleanWord = item.english.trim().toLowerCase();
+    const cleanWord = (item.english || '').trim().toLowerCase();
     let frequency = 0;
-    
+
     const forms = [
       cleanWord,
       cleanWord + 's',
@@ -330,13 +363,13 @@ app.get(['/api/vocabulary', '/api/:category/vocabulary'], (req, res) => {
       cleanWord + 'ing',
       cleanWord + 'd'
     ];
-    
+
     forms.forEach(f => {
       if (wordCounts[f]) {
         frequency += wordCounts[f];
       }
     });
-    
+
     return { ...item, frequency };
   });
 
@@ -346,16 +379,25 @@ app.get(['/api/vocabulary', '/api/:category/vocabulary'], (req, res) => {
 // Endpoint to generate structured grammar/vocabulary explanation for a question
 app.get(['/api/exams/:examId/explain/:qNumber', '/api/:category/exams/:examId/explain/:qNumber'], (req, res) => {
   const { examId, qNumber } = req.params;
-  const qIndex = parseInt(qNumber);
-  
-  const dbPath = path.join(getQuestionsDir(req), 'exams.json');
-  if (!fs.existsSync(dbPath)) {
-    return res.status(404).json({ error: 'Exams database not found' });
+  const qIndex = parseInt(qNumber, 10);
+  const dir = getQuestionsDir(req);
+
+  let exam = null;
+  const dbPath = path.join(dir, 'exams.json');
+  if (fs.existsSync(dbPath)) {
+    const exams = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
+    exam = exams.find(e => e.id === examId);
+  } else {
+    const safeExamId = path.basename(examId);
+    const singleExamPath = path.join(dir, 'cikmis_sinavlar', `${safeExamId}.json`);
+    if (fs.existsSync(singleExamPath)) {
+      exam = JSON.parse(fs.readFileSync(singleExamPath, 'utf8'));
+    } else {
+      return res.status(404).json({ error: 'Exam database not found' });
+    }
   }
 
-  const exams = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-  const exam = exams.find(e => e.id === examId);
-  if (!exam) {
+  if (!exam || !Array.isArray(exam.questions)) {
     return res.status(404).json({ error: 'Exam not found' });
   }
 
@@ -364,11 +406,11 @@ app.get(['/api/exams/:examId/explain/:qNumber', '/api/:category/exams/:examId/ex
     return res.status(404).json({ error: 'Question not found' });
   }
 
-  const correctAnswer = exam.answers[qIndex - 1];
-  const opts = question.options;
+  const correctAnswer = question.correct_option || (exam.answers && exam.answers[qIndex - 1]) || 'A';
+  const opts = Array.isArray(question.options) ? question.options : Object.values(question.options || {});
 
   // Helper dictionary lookup for option meanings
-  const dictPath = path.join(getQuestionsDir(req), 'dictionary.json');
+  const dictPath = path.join(dir, 'dictionary.json');
   let dictionary = {};
   if (fs.existsSync(dictPath)) {
     dictionary = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
@@ -816,7 +858,7 @@ app.post(['/api/chat', '/api/:category/chat'], async (req, res) => {
   }
 
   // Load local dictionary
-  const dictPath = path.join(questionsDir, category, 'dictionary.json');
+  const dictPath = path.join(getQuestionsDir(req), 'dictionary.json');
   let dictionary = {};
   if (fs.existsSync(dictPath)) {
     try {
@@ -1033,8 +1075,11 @@ Yapay Zeka Kuralları:
   }
 
   if (foundWord) {
+    const rawEntry = String(dictionary[foundWord]);
+    const [meaningPart, freqPart] = rawEntry.split('|').map(s => s.trim());
+    const freqNote = freqPart ? ` (Çıkmış sınav sıklığı: ${freqPart})` : '';
     return res.json({
-      response: `📖 **${foundWord}**: "${dictionary[foundWord]}" anlamına gelir.\n\nBu kelime YÖKDİL Fen Bilimleri makalelerinde sıklıkla araştırma metotlarını, deneysel analizleri veya akademik çıkarımları açıklamak amacıyla tercih edilir.`
+      response: `📖 **${foundWord}**: "${meaningPart}" anlamına gelir${freqNote}.\n\nBu kelime YÖKDİL Fen Bilimleri makalelerinde sıklıkla araştırma metotlarını, deneysel analizleri veya akademik çıkarımları açıklamak amacıyla tercih edilir.`
     });
   }
 

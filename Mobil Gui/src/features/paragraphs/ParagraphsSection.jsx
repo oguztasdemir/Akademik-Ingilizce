@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import fallbackDictFen from '@dataset/yokdil/fen/dictionary.json';
-import fallbackDictSosyal from '@dataset/yokdil/sosyal/dictionary.json';
-import fallbackDictSaglik from '@dataset/yokdil/saglik/dictionary.json';
+const fallbackDictSosyal = fallbackDictFen;
+const fallbackDictSaglik = fallbackDictFen;
 import { BookOpen, Check, X, HelpCircle, ArrowRight, Volume2, Award, BookOpenCheck } from 'lucide-react';
 
 const ParagraphsSection = ({
@@ -710,7 +710,12 @@ const ParagraphsSection = ({
                     setLoading(true);
                     const category = selectedCategory || 'fen';
                     try {
-                      const mod = await import(`../../../../Dataset/yokdil/${category}/paragraflar/passage_${p.id}.json`);
+                      let mod;
+                      try {
+                        mod = await import(`../../../../Dataset/yokdil/${category}/paragraflar/passage_${p.id}.json`);
+                      } catch (innerErr) {
+                        mod = await import(`../../../../Dataset/yokdil/fen/paragraflar/passage_${p.id}.json`);
+                      }
                       setSelectedPassage(mod.default || mod);
                     } catch (e) {
                       console.error("Error loading passage detail:", e);

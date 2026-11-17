@@ -16,6 +16,12 @@ export default defineConfig({
         path.resolve(__dirname),
         path.resolve(__dirname, '..')
       ]
+    },
+    proxy: {
+      '/dataset': {
+        target: 'http://localhost:5000',
+        changeOrigin: true
+      }
     }
   }
 })

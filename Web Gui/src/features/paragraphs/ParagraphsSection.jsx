@@ -692,7 +692,12 @@ const ParagraphsSection = ({
                     setLoading(true);
                     const category = selectedCategory || 'fen';
                     try {
-                      const mod = await import(`../../../../Dataset/yokdil/${category}/paragraflar/passage_${p.id}.json`);
+                      let mod;
+                      try {
+                        mod = await import(`../../../../Dataset/yokdil/${category}/paragraflar/passage_${p.id}.json`);
+                      } catch (innerErr) {
+                        mod = await import(`../../../../Dataset/yokdil/fen/paragraflar/passage_${p.id}.json`);
+                      }
                       setSelectedPassage(mod.default || mod);
                     } catch (e) {
                       console.error("Error loading passage detail:", e);

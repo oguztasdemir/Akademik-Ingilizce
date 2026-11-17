@@ -1,160 +1,119 @@
 # 🎓 YÖKDİL & YDS Akademik İngilizce Hazırlık Platformu
 
-Bu proje; **YÖKDİL** (Fen Bilimleri, Sosyal Bilimler, Sağlık Bilimleri) ve **YDS** sınavlarına hazırlanan öğrenciler için geliştirilmiş, kapsamlı bir akademik İngilizce öğrenim ve hazırlık platformudur. Uygulama, masaüstü (Web) ve mobil cihazlar için optimize edilmiş iki farklı kullanıcı arayüzü (GUI), yerel veri tabanları, akıllı çalışma algoritmaları ve yapay zeka destekli çalışma koçu bileşenleriyle donatılmıştır.
+Bu proje; **YÖKDİL** (Fen Bilimleri, Sosyal Bilimler, Sağlık Bilimleri) ve **YDS** sınavlarına hazırlanan öğrenciler için geliştirilmiş, kapsamlı bir akademik İngilizce öğrenim ve hazırlık platformudur. Uygulama; masaüstü (**Web Gui**) ve mobil (**Mobil Gui**) için optimize edilmiş iki ayrı React 19 arayüzü, yerel JSON/sözlük veri setleri, Node.js/Express API sunucusu (`Vercel Serverless` uyumlu) ve Bilge Çalışma Arkadaşı bileşenleriyle donatılmıştır.
+
+---
+
+## 📸 Arayüz Ekran Görüntüleri & Tanıtım Videosu
+
+* **Demo Videosu:** [screenshots/demo_video.webm](screenshots/demo_video.webm)
+
+| Panel & Günlük Hedefler | 60 Günlük Kelime Kampı | Sınav Soru Analizi & Hata Açıklaması |
+|:---:|:---:|:---:|
+| ![Dashboard](screenshots/screenshot_1_dashboard_camps.png) | ![Kelime Kampı](screenshots/screenshot_2_vocab_leitner_camp.png) | ![Soru Analizi](screenshots/screenshot_3_exam_question_analysis.png) |
+
+| Paralel Okuma & Kelime Çevirisi | Konu Anlatımı & Bilge Asistan | Mobil PWA Görünümü (`390x844`) |
+|:---:|:---:|:---:|
+| ![Paragraf Okuma](screenshots/screenshot_4_reading_popover_translation.png) | ![Bilge Asistan](screenshots/screenshot_5_ai_owl_coach_mistakes.png) | ![Mobil Arayüz](screenshots/screenshot_6_mobile_pwa_view.png) |
+
+---
+
+## 🎯 Örnek Sonuçlar & Girdi-Çıktı Kıyaslaması (Proof of Work)
+
+| Senaryo | Girdi (Input) | İşlem / API Süreci | Çıktı (Output) |
+|:---|:---|:---|:---|
+| **Çıkmış Sınav Hata Analizi (`2018-ilkbahar` #1)** | Kullanıcı cevabı: `A) various` | `GET /api/fen/exams/2018-ilkbahar/explain/1` (`200 OK`) | Doğru şık `C) essential`, tüm şıkların sözlük karşılıkları ve çözüm yolu paneli |
+| **Paralel Okuma & Kelime Tıklama** | İngilizce paragraftan `"transformation"` seçimi | Kök indirgeme + yerel sözlük (`/api/fen/dictionary`) eşleştirmesi | `"dönüşüm, dönüşüm sağlar, dönüşüm (genetik)"` çevirisi ve Türkçe eşleşme vurgusu |
+| **Bilge Asistan NLP Sorgusu** | `"essential nedir?"` | `POST /api/fen/chat` sözlük & frekans motoru (`200 OK`) | `essential: "gerekli" anlamına gelir (Çıkmış sınav sıklığı: 13)` |
 
 ---
 
 ## 🌟 Temel Özellikler
 
 ### 1. 📅 Katmanlı Akademik Kamplar
-
-* **Kelime Kampı (`cikmis_kelimeler`):** Sınavlarda en sık çıkan kelimelerin telaffuzları, Türkçe karşılıkları ve interaktif kelime kartları.
-* **Gelişmiş Kelime Kampı (`vocabulary`):** HSL renk kodlamalı ilerleme takibi ve zenginleştirilmiş içerikler.
-* **Özel Kelime Kampı:** Kullanıcıların Excel veya metin formatından kendi kelime listelerini yükleyerek çalışabildiği dinamik yapı.
-* **Gramer Kampı (`grammar`):** Dilbilgisi konuları ve her konunun ardından çözülebilen konu kavrama testleri.
-* **YDS Kitap Alıştırmaları:** Günlük hedeflere bölünmüş, okuma ve kelime odaklı kitap alıştırmaları.
+* **Kelime Kampı (`kelime_kampi`):** Sınavlarda en sık çıkan kelimelerin telaffuzları, Türkçe karşılıkları ve interaktif kelime kartları.
+* **Gelişmiş Kelime Kampı (`gelismis_kelime_kampi`):** 1.504 kelimelik havuz, günlere bölünmüş ilerleme ve karne dışa aktarma.
+* **Özel Kelime Kampı:** SheetJS (`xlsx`) şablonu üzerinden özel kelime listeleri yükleyerek çalışma.
+* **Gramer Kampı (`gramer_kampi`) & Konu Anlatımı (`konu_anlatimi`):** 13 ünitelik anlatım ve pekiştirme egzersizleri.
+* **YDS Kitap Alıştırmaları (`yds_kitap`):** 62 günlük okuma ve kelime odaklı çalışma planı.
 
 ### 2. 📝 Sınav & Değerlendirme Modülleri
+* **Çıkmış YÖKDİL Sınavları (`2018-ilkbahar` – `2026-mart`):** 9 tam sınavlık soru arşivi, anlık doğru/yanlış değerlendirme ve yapısal çözüm açıklaması.
+* **Hata Kutusu (Mistake Inbox):** Sınav, kamp ve okuma parçalarındaki yanlışları toplayıp hata temizleme maratonuyla eritme.
 
-* **Sentetik YÖKDİL Deneme Sınavları:** Fen, Sosyal ve Sağlık bilimleri alanları için özel olarak hazırlanmış 80'er soruluk gerçekçi sınavlar.
-* **10 Günlük Genel Değerlendirme Testleri:** Her 10 günde bir açılan, son 10 gün çalışılan kelime ve gramer konularını tarayan 15 soruluk karma sınavlar.
-* **Konu Anlatımı Sınavları:** Her konu anlatımı modülünün sonunda kullanıcı seviyesini ölçen konu testleri.
-* **Hata Kutusu (Mistake Inbox):** Sınav veya testlerde yanlış çözülen tüm soruların yapay zeka analizi ile birlikte saklandığı ve tekrar çözülebildiği alan.
+### 3. 🔍 Paralel Okuma & Yerel Çeviri Popover'ı (`ParagraphsSection`)
+* İngilizce-Türkçe paralel okuma parçalarında tıklanan veya seçilen kelime/öbekler için yerel kök/sözlük eşleştirme (`1.504` kelimelik sözlük + MyMemory API yedeği).
 
-### 3. 🔍 Çift Tıklama / Basılı Tutarak Yerel Çeviri (Offline Translation)
-
-* Okuma parçaları veya sorularda bilinmeyen herhangi bir kelimeye **çift tıklandığında** (veya mobilde **üzerine basılı tutulduğunda**) açılan popover penceresi.
-* Dış kaynaklı bir API bağımlılığı olmadan, yerel lemmatization (kök kelime bulma) ve öbek algılama motoruyla anında Türkçe karşılık gösterimi.
-
-### 4. 🦉 Bilge Çalışma Arkadaşı (AI Chatbot & Mascot)
-
-* Kullanıcının çalışma alanına göre tepki veren interaktif baykuş maskotu.
-* Öğrencinin yanlış cevaplarına veya takıldığı gramer kurallarına anında taktikler veren, soru çözümlerini açıklayan yapay zeka entegrasyonu.
-
-### 5. 🎮 Gelişim & Eğlence (Mini Oyunlar)
-
-* **Kelime Eşleştirme (Synonym Match):** Eş anlamlı kelimeleri zaman karşı eşleştirme oyunu.
-* **Zıt Anlam Oyunu (Antonym Match):** Zıt anlamları bularak puan toplama.
-* **Kelime Yazma Oyunu (Spelling Game):** İşitsel telaffuzu verilen kelimeleri doğru yazma pratikleri.
-* **Kelime Vurma (Word Shooter):** Doğru kelimeyi hedef alarak vurma oyunu.
-
-### 6. 🐾 Evcil Hayvan & Başarımlar
-
-* Kullanıcı kelime çalıştıkça ve test çözdükçe seviye atlayan, boyutu büyüyen evcil hayvan sistemi.
-* Rozetler ve başarımlar (Achievements) ile oyunlaştırılmış motivasyon takibi.
-
-### 7. 📄 Gelişmiş Rapor Dışa Aktarma (PDF & Docx Karne)
-
-* Kamp çalışmalarının, çözülen kelimelerin durumuna göre (Yanlış yapılanlar 🔴, Doğru yapılanlar 🟢, Henüz çalışılmamışlar ⚪) ayrıştırılarak PDF ve Docx raporu olarak bilgisayara indirilebilmesi.
+### 4. 🦉 Bilge Çalışma Arkadaşı & Evcil Hayvan Sistemi
+* Çalışma durumuna göre tepki veren Bilge Baykuş maskotu ve yerel NLP destekli sohbet koçu.
+* Gamification rozetleri (`achievements.json`), günlük seri takibi ve PDF/DOCX/XLSX karne çıktıları.
 
 ---
 
 ## 🛠️ Teknoloji Yığını (Tech Stack)
 
 ### Frontend (Arayüz Katmanı)
-
-* **React 18 & Vite:** Hızlı derleme ve modern component mimarisi.
-* **Vanilla CSS (Premium Design):** Glassmorphic kartlar, yumuşak gradyan geçişleri ve HSL tabanlı 20 farklı renk teması desteği.
-* **Lucide React & FontAwesome:** Vektörel ikon kütüphaneleri.
+* **React 19 & Vite 8:** Hızlı derleme ve masaüstü (`Web Gui`) + mobil (`Mobil Gui`) bileşen mimarisi.
+* **Lucide React & FontAwesome:** Modern karanlık tema (glassmorphism) ve 20+ renk/oda teması desteği.
+* **jsPDF, html2pdf.js, pdfjs-dist, xlsx:** İstemci tarafı PDF/Excel karne dışa aktarma ve veri işleme.
 
 ### Backend & API (Servis Katmanı)
+* **Node.js & Express (`Web Gui/backend/server.js`):** Sınav, sözlük, frekans, gramer açıklaması, çeviri, NLP sohbet ve JWT kullanıcı senkronizasyon servisleri.
+* **Vercel Serverless Functions (`api/server.js`):** Vercel platformunda sunucusuz API yayını.
+* **Python (`main.py` & `backend/scripts`):** Tüm geliştirme sunucularını tek komutla başlatma ve sınav verisi ayrıştırma araçları.
 
-* **Node.js & Express:** Sınav verilerini, PDF şablonlarını ve yerel sözlük verilerini servis eden sunucu.
-* **Vercel Serverless Functions:** `/api/server.js` üzerinden Vercel platformunda sunucusuz mimariyle çalışma.
+---
+
+## 🛠️ Test & Geliştirme Raporu (Doğrulanmış Güncellemeler)
+1. **Eksik Dataset Yönlendirmeleri Giderildi:** `Mobil Gui` içinde eksik `sosyal`/`saglik` importları `fen` veri seti yedeğine bağlanarak `vite build` hatası çözüldü; `ParagraphsSection` ve `SmartStudySection` dinamik yüklemelerine `fen` fallback eklendi.
+2. **Backend API Rotaları Güncellendi (`Web Gui/backend/server.js`):** `/api/:category/exams`, `/api/lectures`, `/api/lectures/:id/exercises`, `/api/passages`, `/api/:category/vocabulary` ve `/api/:category/exams/:examId/explain/:qNumber` uç noktaları güncel `Dataset/yokdil/fen/*` dosya dizinleri ve `question.correct_option` yapısıyla uyumlu hale getirilerek `200 OK` döndürecek şekilde onarıldı.
+3. **10 MB JSON Limiti (`413` Fix):** 1.504 kelimelik defter eşitlemesi sırasında `/api/user/sync` ucunda oluşan `413 Payload Too Large` hatası `express.json({ limit: '10mb' })` ile giderildi.
+4. **Frontend Fetch, AuthModal & Mobil Proxy İyileştirmeleri:** Fetch çağrılarına `res.ok` ve dizi kontrolleri eklendi; `AuthModal` hızlı giriş formu `{ username }` gövdesiyle `/api/auth/guest` ucuna bağlandı; `TranslationPopover.jsx` içindeki `justifySpace` yazım hatası `justifyContent` olarak düzeltildi; `Mobil Gui` için `--host` ve `/dataset` proxy tanımlandı.
 
 ---
 
 ## 📁 Proje Klasör Yapısı
 
 ```text
-├── api/                   # Vercel Serverless fonksiyon yönlendirme ve API sunucusu
-│   └── server.js          # API giriş noktası (Express entegrasyonlu)
-├── Dataset/               # Tüm sınav, kelime listesi, gramer notları ve başarımların JSON veritabanı
-│   └── yokdil/
-│       ├── fen/           # Fen Bilimleri verileri (sözlük, sınavlar, akademik kelimeler)
-│       ├── saglik/        # Sağlık Bilimleri verileri
-│       └── sosyal/        # Sosyal Bilimler verileri
-├── Mobil Gui/             # Mobil cihazlar için optimize edilmiş Vite + React PWA uygulaması
-│   ├── src/
-│   │   ├── components/    # Alt-üst menüler, ortak pop-up'lar, maskot bileşenleri
-│   │   ├── features/      # Kamplar, oyunlar, testler, profil ve evcil hayvan özellikleri
-│   │   └── App.jsx        # Mobil ana uygulama bileşeni
-│   └── index.css          # Mobil tasarım ve medya sorguları (Responsive breakpoints)
-├── Web Gui/               # Geniş ekranlar (Masaüstü) için optimize edilmiş web uygulaması
-│   ├── src/
-│   │   ├── features/      # Masaüstü uyumlu oyun, kamp ve sınav modülleri
-│   │   └── App.jsx        # Web ana uygulama bileşeni
-│   └── package.json
-├── main.py                # Tüm projeyi tek bir komutla başlatan Python orkestratör betiği
-├── vercel.json            # Vercel yönlendirmeleri ve build konfigürasyon dosyası
-└── README.md              # Bu dökümantasyon dosyası
+├── api/                   # Vercel Serverless API giriş noktası
+├── Dataset/yokdil/        # Başarımlar, 9 çıkmış sınav, sözlük, 60 gün kamp & 13 konu anlatımı JSON/MD veri seti
+├── Mobil Gui/             # Mobil cihazlar için optimize edilmiş React 19 + Vite 8 uygulaması (Port 5174)
+├── Web Gui/               # Masaüstü web uygulaması (Port 5173)
+│   ├── backend/server.js  # Express API sunucusu (Port 5000)
+│   └── src/               # Özellik modülleri (quiz, camp, vocabulary, paragraphs, mistakes, lectures)
+├── screenshots/           # Doğrulanmış arayüz ekran görüntüleri ve demo videosu
+├── main.py                # Express, Web Gui ve Mobil Gui'yi eşzamanlı başlatan Python orkestratörü
+├── vercel.json            # Vercel dağıtım ve yönlendirme yapılandırması
+└── README.md              # Bu dokümantasyon dosyası
 ```
 
 ---
 
 ## 🚀 Başlangıç ve Çalıştırma
 
-### 1. Kolay Başlangıç (Tavsiye Edilen)
-
-Projenin ana dizininde terminali açıp aşağıdaki Python komutunu çalıştırarak Express sunucusunu, Web arayüzünü ve Mobil arayüzünü tek komutla eşzamanlı olarak başlatabilirsiniz:
+### 1. Tek Komutla Başlangıç (Tavsiye Edilen)
+Proje kök dizininde `python main.py` komutunu çalıştırarak Express (`5000`), Web Gui (`5173`) ve Mobil Gui (`5174`) sunucularını otomatik bağımlılık kurulumuyla başlatabilirsiniz:
 
 ```bash
 python main.py
 ```
 
-*Bu komut gerekli bağımlılıkları kontrol edecek ve uygulamaları tarayıcınızda otomatik olarak açacaktır.*
-
 ### 2. Manuel Başlangıç
-
-Eğer bileşenleri bağımsız olarak başlatmak isterseniz sırasıyla şu adımları izleyin:
-
-#### A. Backend Sunucusunu Başlatma
-
 ```bash
-cd "Web Gui"
-npm install
-node backend/server.js
+# A. Backend (Port 5000)
+cd "Web Gui/backend" && npm install && node server.js
+
+# B. Web Gui (Port 5173)
+cd "Web Gui" && npm install && npm run dev
+
+# C. Mobil Gui (Port 5174)
+cd "Mobil Gui" && npm install && npm run dev -- --port 5174
 ```
-
-*Sunucu varsayılan olarak `http://localhost:5000` portunda çalışacaktır.*
-
-#### B. Web Arayüzünü Başlatma
-
-```bash
-cd "Web Gui"
-npm install
-npm run dev
-```
-
-*Web uygulaması varsayılan olarak `http://localhost:5173` portunda çalışacaktır.*
-
-#### C. Mobil Arayüzünü Başlatma
-
-```bash
-cd "Mobil Gui"
-npm install
-npm run dev
-```
-
-*Mobil uygulaması varsayılan olarak `http://localhost:5174` (veya uygun ilk portta) çalışacaktır.*
-
----
-
-## ☁️ Dağıtım (Deployment)
-
-Proje Vercel platformuna tam uyumludur. Dağıtım yapmak için kök dizinde Vercel CLI komutunu kullanabilirsiniz:
-
-```bash
-vercel --prod
-```
-
-Tüm statik varlık yönlendirmeleri, `/api/*` istekleri ve sunucusuz fonksiyonlar `vercel.json` içerisinde konfigüre edilmiştir.
 
 ---
 
 ## ⚖️ Yasal Uyarı & Telif Hakkı Bildirimi (Disclaimer)
 
-> **Önemli Bilgilendirme:** Bu proje ve kaynak kodları **tamamen kişisel eğitim, akademik yabancı dil gelişimini destekleme ve açık kaynaklı yazılım geliştirme** amacıyla hazırlanmıştır. 
+> **Önemli Bilgilendirme:** Bu proje ve kaynak kodları **tamamen kişisel eğitim, akademik yabancı dil gelişimini destekleme ve açık kaynaklı yazılım geliştirme** amacıyla hazırlanmıştır.
 > - Platform içerisindeki hiçbir modül, kelime havuzu veya sınav içeriği **kesinlikle ticari bir nitelik taşımamakta**, herhangi bir ücretli abonelik, gelir veya ticari kazanç amacı gütmemektedir.
 > - Sınav isimleri, telifli terimler ve soru formatları **ÖSYM (Ölçme, Seçme ve Yerleştirme Merkezi)** ve ilgili resmi sınav otoritelerine aittir.
-> - Bu yazılım projesi, yalnızca öğrencilerin bireysel kelime ezberleme, çeviri pratikleri ve öğrenme eğrilerini takip etmelerine yardımcı olan açık kaynaklı, ücretsiz bir eğitim aracıdır.

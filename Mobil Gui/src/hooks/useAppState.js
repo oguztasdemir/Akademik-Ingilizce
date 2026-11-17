@@ -3,16 +3,16 @@ import { playCorrectSound, playIncorrectSound, playGoalSound } from '../utils/au
 import achievementsData from '@dataset/yokdil/achievements.json';
 
 import fallbackExamsFen from '@dataset/yokdil/fen/cikmis_sinavlar/sinav_listesi.json';
-import fallbackExamsSosyal from '@dataset/yokdil/sosyal/cikmis_sinavlar/sinav_listesi.json';
-import fallbackExamsSaglik from '@dataset/yokdil/saglik/cikmis_sinavlar/sinav_listesi.json';
+const fallbackExamsSosyal = fallbackExamsFen;
+const fallbackExamsSaglik = fallbackExamsFen;
 
 import fallbackVocabFen from '@dataset/yokdil/fen/gelismis_kelime_kampi/akademik_kelime_listesi.json';
-import fallbackVocabSosyal from '@dataset/yokdil/sosyal/gelismis_kelime_kampi/akademik_kelime_listesi.json';
-import fallbackVocabSaglik from '@dataset/yokdil/saglik/gelismis_kelime_kampi/akademik_kelime_listesi.json';
+const fallbackVocabSosyal = fallbackVocabFen;
+const fallbackVocabSaglik = fallbackVocabFen;
 
 import fallbackDictFen from '@dataset/yokdil/fen/dictionary.json';
-import fallbackDictSosyal from '@dataset/yokdil/sosyal/dictionary.json';
-import fallbackDictSaglik from '@dataset/yokdil/saglik/dictionary.json';
+const fallbackDictSosyal = fallbackDictFen;
+const fallbackDictSaglik = fallbackDictFen;
 
 const ALL_TABS = {
   'dashboard': { label: 'Ana Sayfa', icon: 'fa-solid fa-house' },
@@ -869,9 +869,14 @@ export const useAppState = () => {
       .catch(err => console.error("Error fetching dictionary list:", err));
 
     fetch(`${BACKEND_URL}/api/${category}/vocabulary`)
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
       .then(data => {
-        setVocabPracticeList(data);
+        if (Array.isArray(data) && data.length > 0) {
+          setVocabPracticeList(data);
+        }
       })
       .catch(err => console.error("Error fetching vocabulary database:", err));
 
@@ -1204,10 +1209,17 @@ export const useAppState = () => {
 
     if (BACKEND_URL) {
       fetch(`${BACKEND_URL}/api/${category}/exams/${activeExamId}/explain/${qIndex}`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        })
         .then(data => {
-          setActiveExplanation(data);
-          setExplanationLoading(false);
+          if (data && data.explanation) {
+            setActiveExplanation(data);
+            setExplanationLoading(false);
+          } else {
+            loadLocalExplanationFallback();
+          }
         })
         .catch(err => {
           console.warn("Error loading explanation from API, falling back to local generator:", err);

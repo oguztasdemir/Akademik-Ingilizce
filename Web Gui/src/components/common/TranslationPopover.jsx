@@ -22,7 +22,7 @@ const TranslationPopover = ({
         top: `${position.y - 120}px` 
       }}
     >
-      <div style={{ display: 'flex', alignItems: 'center', justifySpace: 'space-between', borderBottom: '1px solid rgba(255, 255, 255, 0.08)', paddingBottom: '8px', marginBottom: '8px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(255, 255, 255, 0.08)', paddingBottom: '8px', marginBottom: '8px' }}>
         <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: 'var(--primary-light)' }}>Çeviri Kutusu</span>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <button 

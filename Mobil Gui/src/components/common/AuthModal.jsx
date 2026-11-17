@@ -18,10 +18,10 @@ const AuthModal = ({ show, onClose, onAuthSuccess, BACKEND_URL }) => {
     setLoading(true);
 
     try {
-      const res = await fetch(`${BACKEND_URL || (window.location.protocol + '//' + window.location.hostname + ':5000')}/api/auth/login`, {
+      const res = await fetch(`${BACKEND_URL || (window.location.protocol + '//' + window.location.hostname + ':5000')}/api/auth/guest`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.trim() })
+        body: JSON.stringify({ username: name.trim() })
       });
       const data = await res.json();
       

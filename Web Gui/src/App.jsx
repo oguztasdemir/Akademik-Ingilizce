@@ -926,9 +926,14 @@ function App() {
       .catch(err => console.error("Error fetching dictionary list:", err));
 
     fetch(`${BACKEND_URL}/api/${category}/vocabulary`)
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
       .then(data => {
-        setVocabPracticeList(data);
+        if (Array.isArray(data) && data.length > 0) {
+          setVocabPracticeList(data);
+        }
       })
       .catch(err => console.error("Error fetching vocabulary database:", err));
 
@@ -1261,10 +1266,17 @@ function App() {
 
     if (BACKEND_URL) {
       fetch(`${BACKEND_URL}/api/${category}/exams/${activeExamId}/explain/${qIndex}`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        })
         .then(data => {
-          setActiveExplanation(data);
-          setExplanationLoading(false);
+          if (data && data.explanation) {
+            setActiveExplanation(data);
+            setExplanationLoading(false);
+          } else {
+            loadLocalExplanationFallback();
+          }
         })
         .catch(err => {
           console.warn("Error loading explanation from API, falling back to local generator:", err);
