@@ -37,3 +37,9 @@ yarn-error.log*
 *.swp
 .vercel
 .env*
+
+# Python & Pytest
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
