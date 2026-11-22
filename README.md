@@ -1,5 +1,8 @@
 # 🎓 YÖKDİL & YDS Akademik İngilizce Hazırlık Platformu
 
+[![CI Tests](https://github.com/oguztasdemir/Akademik-Ingilizce/actions/workflows/ci.yml/badge.svg)](https://github.com/oguztasdemir/Akademik-Ingilizce/actions/workflows/ci.yml)
+
+
 Bu proje; **YÖKDİL** (Fen Bilimleri, Sosyal Bilimler, Sağlık Bilimleri) ve **YDS** sınavlarına hazırlanan öğrenciler için geliştirilmiş, kapsamlı bir akademik İngilizce öğrenim ve hazırlık platformudur. Uygulama; masaüstü (**Web Gui**) ve mobil (**Mobil Gui**) için optimize edilmiş iki ayrı React 19 arayüzü, yerel JSON/sözlük veri setleri, Node.js/Express API sunucusu (`Vercel Serverless` uyumlu) ve Bilge Çalışma Arkadaşı bileşenleriyle donatılmıştır.
 
 ---
@@ -117,3 +120,15 @@ cd "Mobil Gui" && npm install && npm run dev -- --port 5174
 > **Önemli Bilgilendirme:** Bu proje ve kaynak kodları **tamamen kişisel eğitim, akademik yabancı dil gelişimini destekleme ve açık kaynaklı yazılım geliştirme** amacıyla hazırlanmıştır.
 > - Platform içerisindeki hiçbir modül, kelime havuzu veya sınav içeriği **kesinlikle ticari bir nitelik taşımamakta**, herhangi bir ücretli abonelik, gelir veya ticari kazanç amacı gütmemektedir.
 > - Sınav isimleri, telifli terimler ve soru formatları **ÖSYM (Ölçme, Seçme ve Yerleştirme Merkezi)** ve ilgili resmi sınav otoritelerine aittir.
+
+
+---
+
+## Yerel Testler
+
+Projenin temel çalışma ve sözdizimi doğrulama testlerini çalıştırmak için:
+
+```bash
+pip install pytest
+pytest tests -v
+```
